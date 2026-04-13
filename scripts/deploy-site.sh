@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Deploy site/ to nginx + GitHub Pages (gh-pages branch)
+# Deploy site/ to nginx + GitHub Pages (gh-pages branch via worktree)
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -11,28 +11,22 @@ DEPLOY_DIR="/var/www/harness-pulse"
 rsync -a --delete "$SITE_DIR/" "$DEPLOY_DIR/"
 echo "[deploy] Deployed to $DEPLOY_DIR"
 
-# 2. Push to GitHub Pages (gh-pages branch)
+# 2. Push to GitHub Pages using a temp worktree (avoids branch-switch clobbering)
+GH_PAGES_DIR=$(mktemp -d)
+cleanup() { git -C "$REPO_DIR" worktree remove --force "$GH_PAGES_DIR" 2>/dev/null || true; rm -rf "$GH_PAGES_DIR"; }
+trap cleanup EXIT
+
 cd "$REPO_DIR"
-CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+git worktree add "$GH_PAGES_DIR" gh-pages --quiet
 
-# Stash any working changes on main
-git stash --quiet 2>/dev/null || true
+cp "$SITE_DIR/index.html"       "$GH_PAGES_DIR/index.html"
+cp "$SITE_DIR/style.css"        "$GH_PAGES_DIR/style.css"
+cp "$SITE_DIR/feed.xml"         "$GH_PAGES_DIR/feed.xml"
+mkdir -p "$GH_PAGES_DIR/api"
+cp "$SITE_DIR/api/latest.json"  "$GH_PAGES_DIR/api/latest.json"
 
-# Switch to gh-pages, update, commit, push
-git checkout gh-pages --quiet
-
-# Copy built files
-cp "$SITE_DIR/index.html" index.html
-cp "$SITE_DIR/style.css" style.css 2>/dev/null || true
-cp "$SITE_DIR/feed.xml" feed.xml
-mkdir -p api
-cp "$SITE_DIR/api/latest.json" api/latest.json
-
-git add index.html style.css feed.xml api/latest.json 2>/dev/null || true
+cd "$GH_PAGES_DIR"
+git add index.html style.css feed.xml api/latest.json
 git diff --cached --quiet || git commit -m "Deploy: $(date +%Y-%m-%d)"
 git push origin gh-pages --quiet
 echo "[deploy] Pushed to GitHub Pages"
-
-# Return to original branch
-git checkout "$CURRENT_BRANCH" --quiet
-git stash pop --quiet 2>/dev/null || true

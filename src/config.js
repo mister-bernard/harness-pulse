@@ -142,7 +142,7 @@ module.exports = {
       slug: 'kilo-code',
       category: 'ide-extension',
       vendor: 'Kilo Code',
-      github: { owner: 'kilocode', repo: 'kilocode' },
+      github: { owner: 'Kilo-Org', repo: 'kilocode' },
       npm: null,
       pypi: null,
       vscode: 'kilocode.Kilo-Code',
