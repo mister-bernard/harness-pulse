@@ -1,0 +1,9 @@
+node_modules/
+.env
+data/snapshots/*.json
+data/latest.json
+data/tweet-history.json
+site/index.html
+site/api/
+site/feed.xml
+*.bak.*

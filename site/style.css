@@ -1,0 +1,315 @@
+/* The Harness Pulse — Bloomberg Terminal meets Hacker News */
+
+:root {
+  --bg: #0D1117;
+  --card-bg: #161B22;
+  --border: #30363D;
+  --text: #E6EDF3;
+  --muted: #8B949E;
+  --rising: #3FB950;
+  --stable: #D29922;
+  --declining: #F85149;
+  --accent: #58A6FF;
+  --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+  --font-prose: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 32px 16px;
+  border-bottom: 1px solid var(--border);
+  background: #0D1117;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.header-right {
+  text-align: right;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.api-link {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Sections */
+section {
+  padding: 28px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+section h2 {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-note {
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+/* Leaderboard */
+.table-wrap { overflow-x: auto; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+thead th {
+  text-align: left;
+  padding: 8px 12px;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--border);
+  background: #0D1117;
+}
+
+tbody tr {
+  border-bottom: 1px solid #21262D;
+  transition: background 0.1s;
+}
+
+tbody tr:hover { background: #161B22; }
+
+tbody td {
+  padding: 10px 12px;
+  white-space: nowrap;
+}
+
+.rank { color: var(--muted); width: 36px; }
+.tool-name { font-weight: 600; }
+.vendor-cell { color: var(--muted); font-size: 11px; }
+.score { font-weight: 700; font-size: 15px; }
+.delta { font-size: 12px; }
+.delta.pos { color: var(--rising); }
+.delta.neg { color: var(--declining); }
+
+.trend { font-size: 12px; }
+.trend.rising { color: var(--rising); }
+.trend.stable { color: var(--stable); }
+.trend.declining { color: var(--declining); }
+
+/* Charts */
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.chart-wrap {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.chart-label {
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* Trend chart */
+.trend-wrap {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.legend {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Detail cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.tool-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.card-meta {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 3px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.badge {
+  background: #21262D;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 1px 6px;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.vendor { color: var(--muted); }
+
+.score-badge {
+  font-size: 22px;
+  font-weight: 800;
+  padding: 6px 12px;
+  border-radius: 6px;
+  min-width: 52px;
+  text-align: center;
+}
+
+.card-body { display: flex; flex-direction: column; gap: 4px; }
+.card-row { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; }
+.card-key { color: var(--muted); flex-shrink: 0; }
+.card-val { color: var(--text); text-align: right; display: flex; align-items: center; gap: 6px; }
+.card-val .delta { font-size: 11px; }
+.card-val .delta.pos { color: var(--rising); }
+.card-val .delta.neg { color: var(--declining); }
+
+.no-data { color: var(--muted); font-size: 12px; font-style: italic; }
+
+.card-footer {
+  font-size: 11px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+
+/* Methodology */
+.method-body {
+  font-family: var(--font-prose);
+  max-width: 800px;
+  color: var(--text);
+}
+
+.method-body h3 {
+  font-size: 14px;
+  margin: 20px 0 8px;
+  color: var(--accent);
+}
+
+.method-body p, .method-body li {
+  font-size: 13px;
+  color: #C9D1D9;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.method-body ul { padding-left: 20px; }
+
+.method-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-family: var(--font-mono);
+  margin: 12px 0;
+}
+
+.method-table th, .method-table td {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.method-table th {
+  background: #161B22;
+  color: var(--muted);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 32px;
+  font-size: 11px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header { flex-direction: column; gap: 8px; padding: 16px; }
+  section { padding: 20px 16px; }
+  .chart-grid { grid-template-columns: 1fr; }
+  .cards-grid { grid-template-columns: 1fr; }
+  footer { flex-direction: column; gap: 6px; }
+  .method-table { font-size: 11px; }
+  tbody td { padding: 8px 6px; font-size: 12px; }
+}

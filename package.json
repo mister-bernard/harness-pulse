@@ -1,0 +1,22 @@
+{
+  "name": "harness-pulse",
+  "version": "1.0.0",
+  "description": "Daily intelligence dashboard tracking AI coding tool adoption + auto-tweet system",
+  "main": "src/cron.js",
+  "scripts": {
+    "start": "node src/cron.js",
+    "run-once": "node src/run-once.js",
+    "backfill": "bash scripts/backfill.sh",
+    "deploy": "bash scripts/deploy-site.sh"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.17.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
