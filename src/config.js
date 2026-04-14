@@ -168,7 +168,7 @@ module.exports = {
       slug: 'claw-code',
       category: 'terminal-agent',
       vendor: 'Claw Code Foundation',
-      github: { owner: 'clawcode', repo: 'claw-code' },
+      github: null, // repo does not exist
       npm: null,
       pypi: null, // Not found on PyPI
       vscode: null,

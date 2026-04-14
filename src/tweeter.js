@@ -142,14 +142,17 @@ function isDuplicate(text, history) {
 }
 
 function countCollectorSuccesses(data) {
+  const { tools: cfgTools } = require('./config');
   const tools = data.tools;
-  const signals = ['github', 'downloads', 'vscode', 'openrouter', 'community'];
+  // Only count signals that are *expected* for each tool (based on config)
+  // OpenRouter is excluded — endpoint is often unavailable
   let total = 0, present = 0;
   for (const t of tools) {
-    for (const sig of signals) {
-      total++;
-      if (t[sig] != null) present++;
-    }
+    const cfg = cfgTools.find(c => c.slug === t.slug) || {};
+    if (cfg.github) { total++; if (t.github) present++; }
+    if (cfg.npm || cfg.pypi) { total++; if (t.downloads?.weekly_downloads != null) present++; }
+    if (cfg.vscode) { total++; if (t.vscode) present++; }
+    total++; if (t.community) present++; // community always expected
   }
   return { total, present, ratio: present / total };
 }

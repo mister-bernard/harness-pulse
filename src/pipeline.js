@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').config();
+require('dotenv').config({ override: true });
 
 const { tools } = require('./config');
 const githubCollector = require('./collectors/github');

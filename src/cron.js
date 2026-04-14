@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').config();
+// dotenv loaded per-run in pipeline.js
 const cron = require('node-cron');
 const { runPipeline } = require('./pipeline');
 
