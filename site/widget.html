@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harness Pulse Widget</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"JetBrains Mono",monospace;background:#0D1117;color:#E6EDF3;font-size:12px}
+.widget{border:1px solid #30363D;border-radius:6px;overflow:hidden;max-width:320px}
+.widget-header{background:#161B22;padding:8px 12px;border-bottom:1px solid #30363D;display:flex;justify-content:space-between;align-items:center}
+.widget-title{font-size:11px;letter-spacing:.1em;color:#8B949E;text-transform:uppercase}
+.widget-link{font-size:10px;color:#58A6FF;text-decoration:none}
+.widget-row{display:flex;align-items:center;padding:5px 12px;border-bottom:1px solid #21262D}
+.widget-row:last-child{border-bottom:none}
+.rank{color:#8B949E;width:20px;font-size:11px}
+.tool-name{flex:1;font-size:12px;font-weight:600}
+.score{font-size:13px;font-weight:700;min-width:28px;text-align:right}
+.trend-up{color:#3FB950}
+.trend-dn{color:#F85149}
+.trend-st{color:#D29922}
+.loading{padding:20px;text-align:center;color:#8B949E;font-size:11px}
+</style>
+</head>
+<body>
+<div class="widget" id="widget">
+  <div class="widget-header">
+    <span class="widget-title">Harness Pulse</span>
+    <a class="widget-link" href="https://mrb.sh/hp" target="_blank" rel="noopener">Full dashboard →</a>
+  </div>
+  <div id="widget-body"><div class="loading">Loading...</div></div>
+</div>
+<script>
+(function(){
+  const API = 'https://mrb.sh/hp/api/latest.json';
+  const TREND = {surging:'▲',rising:'▲',stable:'●',declining:'▼',falling:'▼'};
+  const TCLS  = {surging:'trend-up',rising:'trend-up',stable:'trend-st',declining:'trend-dn',falling:'trend-dn'};
+  fetch(API).then(r=>r.json()).then(data=>{
+    const tools = (data.tools||[]).slice(0,7);
+    document.getElementById('widget-body').innerHTML = tools.map(t=>`
+      <div class="widget-row">
+        <span class="rank">#${t.rank}</span>
+        <span class="tool-name" style="color:${t.color}">${t.name}</span>
+        <span class="score">${t.momentum_score}</span>
+        <span class="${TCLS[t.trend]||'trend-st'}" style="margin-left:6px;font-size:10px">${TREND[t.trend]||'●'} ${t.trend||'stable'}</span>
+      </div>`).join('');
+  }).catch(()=>{
+    document.getElementById('widget-body').innerHTML='<div class="loading">Data unavailable</div>';
+  });
+})();
+</script>
+</body>
+</html>

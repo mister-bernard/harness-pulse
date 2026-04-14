@@ -3,66 +3,81 @@
 require('dotenv').config({ override: true });
 
 const { tools } = require('./config');
-const githubCollector = require('./collectors/github');
-const npmCollector = require('./collectors/npm-downloads');
-const pypiCollector = require('./collectors/pypi-downloads');
-const vscodeCollector = require('./collectors/vscode-marketplace');
-const openrouterCollector = require('./collectors/openrouter');
-const communityCollector = require('./collectors/hackernews-reddit');
-const { aggregate } = require('./aggregator');
-const { calculateScores } = require('./scorer');
+const githubCollector      = require('./collectors/github');
+const starHistoryCollector = require('./collectors/github-star-history');
+const npmCollector         = require('./collectors/npm-downloads');
+const pypiCollector        = require('./collectors/pypi-downloads');
+const vscodeCollector      = require('./collectors/vscode-marketplace');
+const jetbrainsCollector   = require('./collectors/jetbrains');
+const dockerCollector      = require('./collectors/docker');
+const openrouterCollector  = require('./collectors/openrouter');
+const communityCollector   = require('./collectors/hackernews-reddit');
+const soCollector          = require('./collectors/stackoverflow');
+const trendsCollector      = require('./collectors/google-trends');
+const { aggregate }        = require('./aggregator');
+const { calculateScores }  = require('./scorer');
+const milestoneTracker     = require('./milestone-tracker');
+const surgeAlerts          = require('./surge-alerts');
+const { postWeeklyThread } = require('./weekly-thread');
 const {
-  loadPreviousSnapshots,
-  enrichStarDeltas,
-  loadTrendHistory,
-  saveSnapshot,
-  validate
+  loadPreviousSnapshots, enrichStarDeltas,
+  loadTrendHistory, saveSnapshot, validate
 } = require('./historical');
 const { writeSite } = require('./renderer');
-const { tweet } = require('./tweeter');
-const { exec } = require('child_process');
-const path = require('path');
+const { tweet }    = require('./tweeter');
+const { exec }     = require('child_process');
+const path         = require('path');
 
 async function sendAlert(message) {
-  // Telegram alert via existing infrastructure
   const botToken = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID || process.env.G_TELEGRAM_ID;
-  if (!botToken || !chatId) return;
+  const chatId   = process.env.TELEGRAM_CHAT_ID || '39172309';
+  if (!botToken) return;
   try {
     await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ chat_id: chatId, text: `🔴 Harness Pulse: ${message}` })
+      body: JSON.stringify({ chat_id: chatId, text: `Harness Pulse: ${message}` })
     });
-  } catch {
-    // best effort
-  }
+  } catch { /* best effort */ }
 }
 
 async function runPipeline() {
   const start = Date.now();
-  console.log(`[${new Date().toISOString()}] Starting daily collection pipeline...`);
+  const ts = () => `[${new Date().toISOString()}]`;
+  console.log(`${ts()} Starting daily collection pipeline...`);
 
   try {
-    // 1. Run collectors in parallel where possible
+    // 1. Collect all sources in parallel
     console.log('[pipeline] Running collectors...');
-    const [github, npm, pypi, vscode, openrouter, community] = await Promise.all([
-      githubCollector.collect(tools).catch(err => { console.error('[github] Fatal:', err.message); return {}; }),
-      npmCollector.collect(tools).catch(err => { console.error('[npm] Fatal:', err.message); return {}; }),
-      pypiCollector.collect(tools).catch(err => { console.error('[pypi] Fatal:', err.message); return {}; }),
-      vscodeCollector.collect(tools).catch(err => { console.error('[vscode] Fatal:', err.message); return {}; }),
-      openrouterCollector.collect(tools).catch(err => { console.error('[openrouter] Fatal:', err.message); return {}; }),
-      communityCollector.collect(tools).catch(err => { console.error('[community] Fatal:', err.message); return {}; })
+    const safe = fn => fn.catch(err => { console.error(err.message); return {}; });
+
+    const [github, npm, pypi, vscode, jetbrains, docker, openrouter, community, stackoverflow] = await Promise.all([
+      safe(githubCollector.collect(tools)),
+      safe(npmCollector.collect(tools)),
+      safe(pypiCollector.collect(tools)),
+      safe(vscodeCollector.collect(tools)),
+      safe(jetbrainsCollector.collect(tools)),
+      safe(dockerCollector.collect(tools)),
+      safe(openrouterCollector.collect(tools)),
+      safe(communityCollector.collect(tools)),
+      safe(soCollector.collect(tools)),
     ]);
 
-    // 2. Load previous snapshots for deltas
+    // Google Trends runs serially (rate sensitive) — run after parallel batch
+    let trends = {};
+    try { trends = await trendsCollector.collect(tools); }
+    catch (err) { console.warn('[trends] Skipped:', err.message); }
+
+    // 2. Enrich GitHub with actual star velocity
+    let enrichedGithub = github;
+    try { enrichedGithub = await starHistoryCollector.enrich(github, tools); }
+    catch (err) { console.warn('[star-history] Skipped:', err.message); }
+
+    // 3. Load previous snapshots for deltas
     const previousData = loadPreviousSnapshots();
 
-    // 3. Aggregate
-    console.log('[pipeline] Aggregating...');
-    let data = aggregate({ github, npm, pypi, vscode, openrouter, community });
-
-    // 4. Enrich with star deltas
+    // 4. Aggregate + enrich legacy star deltas from snapshots
+    let data = aggregate({ github: enrichedGithub, npm, pypi, vscode, jetbrains, docker, openrouter, community, stackoverflow, trends });
     data = enrichStarDeltas(data, previousData);
 
     // 5. Score
@@ -73,47 +88,50 @@ async function runPipeline() {
     const { valid, errors } = validate(scored, previousData);
     if (!valid) {
       console.warn('[pipeline] Validation warnings:', errors);
-      await sendAlert(`Validation warnings: ${errors.join(', ')}`);
+      await sendAlert(`Validation: ${errors.join(', ')}`);
     }
 
     // 7. Save snapshot
     saveSnapshot(scored);
 
-    // 8. Load trend history for chart
+    // 8. Render
+    console.log('[pipeline] Rendering site...');
     const slugs = tools.map(t => t.slug);
     const trendHistory = loadTrendHistory(slugs);
-
-    // 9. Render dashboard
-    console.log('[pipeline] Rendering site...');
     writeSite(scored, trendHistory);
 
-    // 10. Deploy site
+    // 9. Deploy
     console.log('[pipeline] Deploying site...');
     await deploySite();
 
-    // 11. Tweet
-    console.log('[pipeline] Tweeting...');
+    // 10. Tweet daily update
     await tweet(scored);
 
+    // 11. Milestone tweets
+    await milestoneTracker.run(scored);
+
+    // 12. Surge alerts to Telegram
+    await surgeAlerts.checkSurges(scored, previousData);
+
+    // 13. Weekly thread (Sundays only)
+    await postWeeklyThread();
+
     const elapsed = ((Date.now() - start) / 1000).toFixed(1);
-    console.log(`[${new Date().toISOString()}] Pipeline complete in ${elapsed}s`);
+    console.log(`${ts()} Pipeline complete in ${elapsed}s`);
 
   } catch (err) {
-    console.error(`[${new Date().toISOString()}] Pipeline failed:`, err);
+    console.error(`${ts()} Pipeline failed:`, err);
     await sendAlert(`Pipeline failed: ${err.message}`);
   }
 }
 
 function deploySite() {
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     const scriptPath = path.join(__dirname, '..', 'scripts', 'deploy-site.sh');
     exec(`bash "${scriptPath}"`, (err, stdout, stderr) => {
-      if (err) {
-        console.error('[deploy] Failed:', stderr);
-      } else {
-        console.log('[deploy]', stdout.trim());
-      }
-      resolve(); // non-fatal — site is still served locally
+      if (err) console.error('[deploy] Failed:', stderr);
+      else console.log('[deploy]', stdout.trim());
+      resolve();
     });
   });
 }

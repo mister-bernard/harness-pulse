@@ -12,6 +12,8 @@ module.exports = {
       npm: '@anthropic-ai/claude-code',
       pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://docs.anthropic.com/en/docs/claude-code',
       openrouter_app_slug: 'claude-code',
       color: '#D97706'
@@ -25,6 +27,8 @@ module.exports = {
       npm: 'openclaw',
       pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://openclaw.com',
       openrouter_app_slug: 'openclaw',
       color: '#DC2626'
@@ -36,8 +40,10 @@ module.exports = {
       vendor: 'Nous Research',
       github: { owner: 'NousResearch', repo: 'hermes-agent' },
       npm: null,
-      pypi: null, // Not on PyPI
+      pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://hermes-agent.nousresearch.com',
       openrouter_app_slug: 'hermes-agent',
       color: '#7C3AED'
@@ -51,6 +57,8 @@ module.exports = {
       npm: '@openai/codex',
       pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://openai.com/index/codex/',
       openrouter_app_slug: null,
       color: '#10A37F'
@@ -64,6 +72,8 @@ module.exports = {
       npm: '@google/gemini-cli',
       pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://github.com/google-gemini/gemini-cli',
       openrouter_app_slug: null,
       color: '#4285F4'
@@ -75,10 +85,12 @@ module.exports = {
       slug: 'cursor',
       category: 'ai-ide',
       vendor: 'Anysphere',
-      github: null, // Closed source
+      github: null,
       npm: null,
       pypi: null,
-      vscode: null, // Standalone IDE
+      vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://cursor.com',
       openrouter_app_slug: null,
       color: '#6366F1'
@@ -92,6 +104,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://windsurf.com',
       openrouter_app_slug: null,
       color: '#06B6D4'
@@ -105,6 +119,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: 'GitHub.copilot',
+      jetbrains: 17718,
+      docker: null,
       website: 'https://github.com/features/copilot',
       openrouter_app_slug: null,
       color: '#1F2937'
@@ -120,6 +136,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: 'saoudrizwan.claude-dev',
+      jetbrains: 28247,
+      docker: null,
       website: 'https://cline.bot',
       openrouter_app_slug: null,
       color: '#F59E0B'
@@ -133,6 +151,8 @@ module.exports = {
       npm: null,
       pypi: 'aider-chat',
       vscode: null,
+      jetbrains: null, // AiderDesk (28791) is unofficial
+      docker: 'paulgauthier/aider',
       website: 'https://aider.chat',
       openrouter_app_slug: null,
       color: '#EF4444'
@@ -146,6 +166,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: 'kilocode.Kilo-Code',
+      jetbrains: 28350,
+      docker: null,
       website: 'https://kilocode.ai',
       openrouter_app_slug: 'kilo-code',
       color: '#8B5CF6'
@@ -159,6 +181,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: 'Continue.continue',
+      jetbrains: 22707,
+      docker: null,
       website: 'https://continue.dev',
       openrouter_app_slug: null,
       color: '#2563EB'
@@ -170,8 +194,10 @@ module.exports = {
       vendor: 'Claw Code Foundation',
       github: null, // repo does not exist
       npm: null,
-      pypi: null, // Not found on PyPI
+      pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: 'https://clawcode.dev',
       openrouter_app_slug: null,
       color: '#F97316'
@@ -185,6 +211,8 @@ module.exports = {
       npm: null,
       pypi: 'openhands-ai',
       vscode: null,
+      jetbrains: null,
+      docker: null, // uses ghcr.io, not Docker Hub
       website: 'https://www.all-hands.dev',
       openrouter_app_slug: null,
       color: '#059669'
@@ -200,6 +228,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: 'RooVeterinaryInc.roo-cline',
+      jetbrains: 30824,
+      docker: null,
       website: 'https://roocode.com',
       openrouter_app_slug: null,
       color: '#84CC16'
@@ -213,6 +243,8 @@ module.exports = {
       npm: null,
       pypi: null,
       vscode: null,
+      jetbrains: null,
+      docker: null,
       website: null,
       openrouter_app_slug: 'isekai-zero',
       color: '#A855F7'

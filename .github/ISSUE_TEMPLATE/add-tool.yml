@@ -1,0 +1,93 @@
+name: Add Tool to Registry
+description: Submit a new AI coding tool for tracking
+title: "[Tool Request] "
+labels: ["tool-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please verify every identifier before submitting. Unverified identifiers will be rejected.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool Name
+      placeholder: e.g., Goose
+    validations:
+      required: true
+
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor / Organization
+      placeholder: e.g., Block
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - terminal-agent
+        - ide-extension
+        - ai-ide
+        - personal-agent
+    validations:
+      required: true
+
+  - type: input
+    id: github
+    attributes:
+      label: GitHub repo (owner/repo)
+      placeholder: e.g., block/goose
+      description: Verify at github.com/owner/repo
+
+  - type: input
+    id: npm
+    attributes:
+      label: npm package name
+      placeholder: e.g., @block/goose
+      description: Verify at npmjs.com/package/name
+
+  - type: input
+    id: pypi
+    attributes:
+      label: PyPI package name
+      placeholder: e.g., goose-ai
+      description: Verify at pypi.org/project/name
+
+  - type: input
+    id: vscode
+    attributes:
+      label: VS Code extension ID
+      placeholder: e.g., block.goose
+      description: Verify at marketplace.visualstudio.com
+
+  - type: input
+    id: jetbrains
+    attributes:
+      label: JetBrains plugin ID (number)
+      placeholder: e.g., 12345
+      description: Verify at plugins.jetbrains.com
+
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+
+  - type: input
+    id: color
+    attributes:
+      label: Brand color (hex)
+      placeholder: e.g., #FF6B00
+
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: Verification
+      options:
+        - label: I have verified every identifier I provided actually exists
+          required: true
+        - label: This tool has meaningful developer adoption (not just launched yesterday)
+          required: true

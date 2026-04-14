@@ -114,7 +114,7 @@ function composeTweet2(data) {
     const total = (topDiscussed.community.hn_stories_7d ?? 0) + (topDiscussed.community.hn_comments_7d ?? 0) + (topDiscussed.community.reddit_posts_7d ?? 0);
     lines.push(`💬 Dev buzz: ${shortName(topDiscussed.name)} (${total} HN+Reddit mentions)`);
   }
-  lines.push('\nComposite of GitHub, downloads, VS Code installs, community + OpenRouter. Updated daily. Open source.');
+  lines.push('\nComposite of GitHub, npm/PyPI, VS Code + JetBrains, Docker, SO, Google Trends, community. Updated daily.');
 
   return lines.join('\n').slice(0, 280);
 }
@@ -150,7 +150,7 @@ function countCollectorSuccesses(data) {
   for (const t of tools) {
     const cfg = cfgTools.find(c => c.slug === t.slug) || {};
     if (cfg.github) { total++; if (t.github) present++; }
-    if (cfg.npm || cfg.pypi) { total++; if (t.downloads?.weekly_downloads != null) present++; }
+    if (cfg.npm || cfg.pypi || cfg.docker) { total++; if (t.downloads?.weekly_downloads != null) present++; }
     if (cfg.vscode) { total++; if (t.vscode) present++; }
     total++; if (t.community) present++; // community always expected
   }

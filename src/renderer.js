@@ -354,3 +354,18 @@ function generateRSS(data) {
 }
 
 module.exports = { writeSite, render };
+
+// Patch: API versioning + widget files
+const _origWriteSite = module.exports.writeSite;
+module.exports.writeSite = function(data, trendHistory = {}) {
+  _origWriteSite(data, trendHistory);
+
+  // v1 versioned API
+  const apiV1Dir = path.join(SITE_DIR, 'api', 'v1');
+  fs.mkdirSync(apiV1Dir, { recursive: true });
+  fs.writeFileSync(path.join(apiV1Dir, 'latest.json'), JSON.stringify(data, null, 2));
+
+  // Widget and embed files are static — only write if not already there
+  // (they're already committed to site/)
+  console.log(`[renderer] API v1 written to ${apiV1Dir}`);
+};

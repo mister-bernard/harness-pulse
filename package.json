@@ -10,10 +10,11 @@
     "deploy": "bash scripts/deploy-site.sh"
   },
   "dependencies": {
-    "twitter-api-v2": "^1.17.0",
+    "dotenv": "^16.4.5",
+    "google-trends-api": "^4.9.2",
     "node-cron": "^3.0.3",
     "node-fetch": "^3.3.2",
-    "dotenv": "^16.4.5"
+    "twitter-api-v2": "^1.17.0"
   },
   "engines": {
     "node": ">=18.0.0"
