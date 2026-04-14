@@ -7,3 +7,6 @@ site/index.html
 site/api/
 site/feed.xml
 *.bak.*
+data/milestones.json
+data/reply-bot-state.json
+screenshot.png
