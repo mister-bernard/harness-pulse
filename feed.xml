@@ -2,39 +2,39 @@
 <rss version="2.0">
   <channel>
     <title>The Harness Pulse</title>
-    <link>https://harnesspulse.mrb.sh</link>
+    <link>https://mrb.sh/hp</link>
     <description>Daily AI coding tool adoption rankings</description>
-    <lastBuildDate>Tue, 14 Apr 2026 06:00:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 19:49:27 GMT</lastBuildDate>
     
     <item>
-      <title>Claude Code — Momentum Score: 68</title>
+      <title>Continue — Momentum Score: 62</title>
       <description>Rank #1. 7d delta: —. Trend: stable.</description>
-      <pubDate>Tue, 14 Apr 2026 06:00:41 GMT</pubDate>
-      <guid>https://harnesspulse.mrb.sh#claude-code-2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 19:49:27 GMT</pubDate>
+      <guid>https://mrb.sh/hp#continue-2026-04-14</guid>
     </item>
     <item>
-      <title>GitHub Copilot — Momentum Score: 60</title>
+      <title>OpenClaw — Momentum Score: 60</title>
       <description>Rank #2. 7d delta: —. Trend: stable.</description>
-      <pubDate>Tue, 14 Apr 2026 06:00:41 GMT</pubDate>
-      <guid>https://harnesspulse.mrb.sh#github-copilot-2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 19:49:27 GMT</pubDate>
+      <guid>https://mrb.sh/hp#openclaw-2026-04-14</guid>
     </item>
     <item>
-      <title>Codex CLI — Momentum Score: 59</title>
+      <title>GitHub Copilot — Momentum Score: 59</title>
       <description>Rank #3. 7d delta: —. Trend: stable.</description>
-      <pubDate>Tue, 14 Apr 2026 06:00:41 GMT</pubDate>
-      <guid>https://harnesspulse.mrb.sh#codex-cli-2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 19:49:27 GMT</pubDate>
+      <guid>https://mrb.sh/hp#github-copilot-2026-04-14</guid>
     </item>
     <item>
-      <title>OpenClaw — Momentum Score: 56</title>
+      <title>Claude Code — Momentum Score: 55</title>
       <description>Rank #4. 7d delta: —. Trend: stable.</description>
-      <pubDate>Tue, 14 Apr 2026 06:00:41 GMT</pubDate>
-      <guid>https://harnesspulse.mrb.sh#openclaw-2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 19:49:27 GMT</pubDate>
+      <guid>https://mrb.sh/hp#claude-code-2026-04-14</guid>
     </item>
     <item>
-      <title>Continue — Momentum Score: 54</title>
+      <title>Cursor — Momentum Score: 53</title>
       <description>Rank #5. 7d delta: —. Trend: stable.</description>
-      <pubDate>Tue, 14 Apr 2026 06:00:41 GMT</pubDate>
-      <guid>https://harnesspulse.mrb.sh#continue-2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 19:49:27 GMT</pubDate>
+      <guid>https://mrb.sh/hp#cursor-2026-04-14</guid>
     </item>
   </channel>
 </rss>

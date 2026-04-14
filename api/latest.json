@@ -1,288 +1,52 @@
 {
-  "collected_at": "2026-04-14T06:00:41.447Z",
+  "collected_at": "2026-04-14T19:49:27.956Z",
   "tools": [
     {
-      "slug": "claude-code",
-      "name": "Claude Code",
-      "vendor": "Anthropic",
-      "category": "terminal-agent",
-      "website": "https://docs.anthropic.com/en/docs/claude-code",
-      "color": "#D97706",
-      "github": null,
-      "downloads": {
-        "npm": {
-          "weekly_downloads": 12081962,
-          "monthly_downloads": 44645605,
-          "daily_downloads": [
-            {
-              "day": "2026-03-14",
-              "downloads": 816732
-            },
-            {
-              "day": "2026-03-15",
-              "downloads": 541643
-            },
-            {
-              "day": "2026-03-16",
-              "downloads": 1380145
-            },
-            {
-              "day": "2026-03-17",
-              "downloads": 2120113
-            },
-            {
-              "day": "2026-03-18",
-              "downloads": 1892030
-            },
-            {
-              "day": "2026-03-19",
-              "downloads": 2164406
-            },
-            {
-              "day": "2026-03-20",
-              "downloads": 1590759
-            },
-            {
-              "day": "2026-03-21",
-              "downloads": 571185
-            },
-            {
-              "day": "2026-03-22",
-              "downloads": 480508
-            },
-            {
-              "day": "2026-03-23",
-              "downloads": 1641081
-            },
-            {
-              "day": "2026-03-24",
-              "downloads": 1668349
-            },
-            {
-              "day": "2026-03-25",
-              "downloads": 2027298
-            },
-            {
-              "day": "2026-03-26",
-              "downloads": 2229781
-            },
-            {
-              "day": "2026-03-27",
-              "downloads": 1963019
-            },
-            {
-              "day": "2026-03-28",
-              "downloads": 568521
-            },
-            {
-              "day": "2026-03-29",
-              "downloads": 732801
-            },
-            {
-              "day": "2026-03-30",
-              "downloads": 1580754
-            },
-            {
-              "day": "2026-03-31",
-              "downloads": 2049028
-            },
-            {
-              "day": "2026-04-01",
-              "downloads": 2201378
-            },
-            {
-              "day": "2026-04-02",
-              "downloads": 1901775
-            },
-            {
-              "day": "2026-04-03",
-              "downloads": 1254183
-            },
-            {
-              "day": "2026-04-04",
-              "downloads": 780079
-            },
-            {
-              "day": "2026-04-05",
-              "downloads": 408075
-            },
-            {
-              "day": "2026-04-06",
-              "downloads": 1252610
-            },
-            {
-              "day": "2026-04-07",
-              "downloads": 2357033
-            },
-            {
-              "day": "2026-04-08",
-              "downloads": 2828576
-            },
-            {
-              "day": "2026-04-09",
-              "downloads": 2117183
-            },
-            {
-              "day": "2026-04-10",
-              "downloads": 2171588
-            },
-            {
-              "day": "2026-04-11",
-              "downloads": 531411
-            },
-            {
-              "day": "2026-04-12",
-              "downloads": 823561
-            }
-          ]
-        },
-        "pypi": null,
-        "weekly_downloads": 12081962,
-        "monthly_downloads": 44645605,
-        "daily_downloads": [
-          {
-            "day": "2026-03-14",
-            "downloads": 816732
-          },
-          {
-            "day": "2026-03-15",
-            "downloads": 541643
-          },
-          {
-            "day": "2026-03-16",
-            "downloads": 1380145
-          },
-          {
-            "day": "2026-03-17",
-            "downloads": 2120113
-          },
-          {
-            "day": "2026-03-18",
-            "downloads": 1892030
-          },
-          {
-            "day": "2026-03-19",
-            "downloads": 2164406
-          },
-          {
-            "day": "2026-03-20",
-            "downloads": 1590759
-          },
-          {
-            "day": "2026-03-21",
-            "downloads": 571185
-          },
-          {
-            "day": "2026-03-22",
-            "downloads": 480508
-          },
-          {
-            "day": "2026-03-23",
-            "downloads": 1641081
-          },
-          {
-            "day": "2026-03-24",
-            "downloads": 1668349
-          },
-          {
-            "day": "2026-03-25",
-            "downloads": 2027298
-          },
-          {
-            "day": "2026-03-26",
-            "downloads": 2229781
-          },
-          {
-            "day": "2026-03-27",
-            "downloads": 1963019
-          },
-          {
-            "day": "2026-03-28",
-            "downloads": 568521
-          },
-          {
-            "day": "2026-03-29",
-            "downloads": 732801
-          },
-          {
-            "day": "2026-03-30",
-            "downloads": 1580754
-          },
-          {
-            "day": "2026-03-31",
-            "downloads": 2049028
-          },
-          {
-            "day": "2026-04-01",
-            "downloads": 2201378
-          },
-          {
-            "day": "2026-04-02",
-            "downloads": 1901775
-          },
-          {
-            "day": "2026-04-03",
-            "downloads": 1254183
-          },
-          {
-            "day": "2026-04-04",
-            "downloads": 780079
-          },
-          {
-            "day": "2026-04-05",
-            "downloads": 408075
-          },
-          {
-            "day": "2026-04-06",
-            "downloads": 1252610
-          },
-          {
-            "day": "2026-04-07",
-            "downloads": 2357033
-          },
-          {
-            "day": "2026-04-08",
-            "downloads": 2828576
-          },
-          {
-            "day": "2026-04-09",
-            "downloads": 2117183
-          },
-          {
-            "day": "2026-04-10",
-            "downloads": 2171588
-          },
-          {
-            "day": "2026-04-11",
-            "downloads": 531411
-          },
-          {
-            "day": "2026-04-12",
-            "downloads": 823561
-          }
-        ]
-      },
-      "vscode": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 181,
-        "hn_comments_7d": 677,
-        "reddit_posts_7d": 0
-      },
-      "momentum_score": 68,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "rank": 1
-    },
-    {
-      "slug": "github-copilot",
-      "name": "GitHub Copilot",
-      "vendor": "GitHub/Microsoft",
+      "slug": "continue",
+      "name": "Continue",
+      "vendor": "Continue",
       "category": "ide-extension",
-      "website": "https://github.com/features/copilot",
-      "color": "#1F2937",
-      "github": null,
+      "website": "https://continue.dev",
+      "color": "#2563EB",
+      "github": {
+        "stars": 32554,
+        "forks": 4384,
+        "open_issues": 568,
+        "watchers": 141,
+        "last_push": "2026-04-14T15:21:21Z",
+        "created_at": "2023-05-24T03:39:39Z",
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 141,
+        "contributors_count": 100,
+        "top_contributors": [
+          {
+            "login": "sestinj",
+            "commits": 9690
+          },
+          {
+            "login": "RomneyDa",
+            "commits": 3066
+          },
+          {
+            "login": "Patrick-Erichsen",
+            "commits": 2041
+          },
+          {
+            "login": "tomasz-stefaniak",
+            "commits": 1090
+          },
+          {
+            "login": "uinstinct",
+            "commits": 744
+          }
+        ],
+        "latest_release": "v1.2.22-vscode",
+        "latest_release_date": "2026-03-27T21:25:10Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
       "downloads": {
         "npm": null,
         "pypi": null,
@@ -291,296 +55,22 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 72903431,
-        "average_rating": 4.102099418640137,
-        "rating_count": 1048,
-        "update_count": 576808624
+        "installs": 2619707,
+        "average_rating": 3.546762704849243,
+        "rating_count": 139,
+        "update_count": 15230074
       },
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 11,
-        "hn_comments_7d": 19,
+        "hn_stories_7d": 12,
+        "hn_comments_7d": 505,
         "reddit_posts_7d": 0
       },
-      "momentum_score": 60,
+      "momentum_score": 62,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
-      "rank": 2
-    },
-    {
-      "slug": "codex-cli",
-      "name": "Codex CLI",
-      "vendor": "OpenAI",
-      "category": "terminal-agent",
-      "website": "https://openai.com/index/codex/",
-      "color": "#10A37F",
-      "github": null,
-      "downloads": {
-        "npm": {
-          "weekly_downloads": 3148947,
-          "monthly_downloads": 13766776,
-          "daily_downloads": [
-            {
-              "day": "2026-03-14",
-              "downloads": 287704
-            },
-            {
-              "day": "2026-03-15",
-              "downloads": 246107
-            },
-            {
-              "day": "2026-03-16",
-              "downloads": 399202
-            },
-            {
-              "day": "2026-03-17",
-              "downloads": 564771
-            },
-            {
-              "day": "2026-03-18",
-              "downloads": 469343
-            },
-            {
-              "day": "2026-03-19",
-              "downloads": 1023811
-            },
-            {
-              "day": "2026-03-20",
-              "downloads": 652688
-            },
-            {
-              "day": "2026-03-21",
-              "downloads": 280432
-            },
-            {
-              "day": "2026-03-22",
-              "downloads": 290661
-            },
-            {
-              "day": "2026-03-23",
-              "downloads": 472679
-            },
-            {
-              "day": "2026-03-24",
-              "downloads": 473162
-            },
-            {
-              "day": "2026-03-25",
-              "downloads": 408320
-            },
-            {
-              "day": "2026-03-26",
-              "downloads": 416751
-            },
-            {
-              "day": "2026-03-27",
-              "downloads": 886544
-            },
-            {
-              "day": "2026-03-28",
-              "downloads": 335297
-            },
-            {
-              "day": "2026-03-29",
-              "downloads": 281074
-            },
-            {
-              "day": "2026-03-30",
-              "downloads": 530940
-            },
-            {
-              "day": "2026-03-31",
-              "downloads": 505336
-            },
-            {
-              "day": "2026-04-01",
-              "downloads": 613006
-            },
-            {
-              "day": "2026-04-02",
-              "downloads": 509713
-            },
-            {
-              "day": "2026-04-03",
-              "downloads": 420215
-            },
-            {
-              "day": "2026-04-04",
-              "downloads": 286588
-            },
-            {
-              "day": "2026-04-05",
-              "downloads": 263485
-            },
-            {
-              "day": "2026-04-06",
-              "downloads": 436406
-            },
-            {
-              "day": "2026-04-07",
-              "downloads": 496688
-            },
-            {
-              "day": "2026-04-08",
-              "downloads": 486316
-            },
-            {
-              "day": "2026-04-09",
-              "downloads": 437645
-            },
-            {
-              "day": "2026-04-10",
-              "downloads": 433852
-            },
-            {
-              "day": "2026-04-11",
-              "downloads": 472598
-            },
-            {
-              "day": "2026-04-12",
-              "downloads": 385442
-            }
-          ]
-        },
-        "pypi": null,
-        "weekly_downloads": 3148947,
-        "monthly_downloads": 13766776,
-        "daily_downloads": [
-          {
-            "day": "2026-03-14",
-            "downloads": 287704
-          },
-          {
-            "day": "2026-03-15",
-            "downloads": 246107
-          },
-          {
-            "day": "2026-03-16",
-            "downloads": 399202
-          },
-          {
-            "day": "2026-03-17",
-            "downloads": 564771
-          },
-          {
-            "day": "2026-03-18",
-            "downloads": 469343
-          },
-          {
-            "day": "2026-03-19",
-            "downloads": 1023811
-          },
-          {
-            "day": "2026-03-20",
-            "downloads": 652688
-          },
-          {
-            "day": "2026-03-21",
-            "downloads": 280432
-          },
-          {
-            "day": "2026-03-22",
-            "downloads": 290661
-          },
-          {
-            "day": "2026-03-23",
-            "downloads": 472679
-          },
-          {
-            "day": "2026-03-24",
-            "downloads": 473162
-          },
-          {
-            "day": "2026-03-25",
-            "downloads": 408320
-          },
-          {
-            "day": "2026-03-26",
-            "downloads": 416751
-          },
-          {
-            "day": "2026-03-27",
-            "downloads": 886544
-          },
-          {
-            "day": "2026-03-28",
-            "downloads": 335297
-          },
-          {
-            "day": "2026-03-29",
-            "downloads": 281074
-          },
-          {
-            "day": "2026-03-30",
-            "downloads": 530940
-          },
-          {
-            "day": "2026-03-31",
-            "downloads": 505336
-          },
-          {
-            "day": "2026-04-01",
-            "downloads": 613006
-          },
-          {
-            "day": "2026-04-02",
-            "downloads": 509713
-          },
-          {
-            "day": "2026-04-03",
-            "downloads": 420215
-          },
-          {
-            "day": "2026-04-04",
-            "downloads": 286588
-          },
-          {
-            "day": "2026-04-05",
-            "downloads": 263485
-          },
-          {
-            "day": "2026-04-06",
-            "downloads": 436406
-          },
-          {
-            "day": "2026-04-07",
-            "downloads": 496688
-          },
-          {
-            "day": "2026-04-08",
-            "downloads": 486316
-          },
-          {
-            "day": "2026-04-09",
-            "downloads": 437645
-          },
-          {
-            "day": "2026-04-10",
-            "downloads": 433852
-          },
-          {
-            "day": "2026-04-11",
-            "downloads": 472598
-          },
-          {
-            "day": "2026-04-12",
-            "downloads": 385442
-          }
-        ]
-      },
-      "vscode": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 5,
-        "hn_comments_7d": 12,
-        "reddit_posts_7d": 0
-      },
-      "momentum_score": 59,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "rank": 3
+      "rank": 1
     },
     {
       "slug": "openclaw",
@@ -589,16 +79,50 @@
       "category": "personal-agent",
       "website": "https://openclaw.com",
       "color": "#DC2626",
-      "github": null,
+      "github": {
+        "stars": 357285,
+        "forks": 72531,
+        "open_issues": 18647,
+        "watchers": 1756,
+        "last_push": "2026-04-14T19:45:53Z",
+        "created_at": "2025-11-24T10:16:47Z",
+        "language": "TypeScript",
+        "license": "MIT",
+        "commit_velocity_4w": 10879,
+        "contributors_count": 98,
+        "top_contributors": [
+          {
+            "login": "steipete",
+            "commits": 18371
+          },
+          {
+            "login": "vincentkoc",
+            "commits": 3460
+          },
+          {
+            "login": "Takhoffman",
+            "commits": 1044
+          },
+          {
+            "login": "obviyus",
+            "commits": 950
+          },
+          {
+            "login": "gumadeiras",
+            "commits": 782
+          }
+        ],
+        "latest_release": "v2026.4.14",
+        "latest_release_date": "2026-04-14T13:03:29Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
       "downloads": {
         "npm": {
-          "weekly_downloads": 1634891,
-          "monthly_downloads": 7687034,
+          "weekly_downloads": 1632456,
+          "monthly_downloads": 7573111,
           "daily_downloads": [
-            {
-              "day": "2026-03-14",
-              "downloads": 351155
-            },
             {
               "day": "2026-03-15",
               "downloads": 322611
@@ -714,17 +238,17 @@
             {
               "day": "2026-04-12",
               "downloads": 200636
+            },
+            {
+              "day": "2026-04-13",
+              "downloads": 237232
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 1634891,
-        "monthly_downloads": 7687034,
+        "weekly_downloads": 1632456,
+        "monthly_downloads": 7573111,
         "daily_downloads": [
-          {
-            "day": "2026-03-14",
-            "downloads": 351155
-          },
           {
             "day": "2026-03-15",
             "downloads": 322611
@@ -840,29 +364,33 @@
           {
             "day": "2026-04-12",
             "downloads": 200636
+          },
+          {
+            "day": "2026-04-13",
+            "downloads": 237232
           }
         ]
       },
       "vscode": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 57,
-        "hn_comments_7d": 183,
+        "hn_stories_7d": 48,
+        "hn_comments_7d": 181,
         "reddit_posts_7d": 0
       },
-      "momentum_score": 56,
+      "momentum_score": 60,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
-      "rank": 4
+      "rank": 2
     },
     {
-      "slug": "continue",
-      "name": "Continue",
-      "vendor": "Continue",
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "vendor": "GitHub/Microsoft",
       "category": "ide-extension",
-      "website": "https://continue.dev",
-      "color": "#2563EB",
+      "website": "https://github.com/features/copilot",
+      "color": "#1F2937",
       "github": null,
       "downloads": {
         "npm": null,
@@ -872,22 +400,313 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 2608522,
-        "average_rating": 3.546762704849243,
-        "rating_count": 139,
-        "update_count": 15219710
+        "installs": 72924248,
+        "average_rating": 4.102099418640137,
+        "rating_count": 1048,
+        "update_count": 576829967
       },
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 12,
-        "hn_comments_7d": 499,
+        "hn_stories_7d": 8,
+        "hn_comments_7d": 17,
         "reddit_posts_7d": 0
       },
-      "momentum_score": 54,
+      "momentum_score": 59,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
-      "rank": 5
+      "rank": 3
+    },
+    {
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "vendor": "Anthropic",
+      "category": "terminal-agent",
+      "website": "https://docs.anthropic.com/en/docs/claude-code",
+      "color": "#D97706",
+      "github": {
+        "stars": 113933,
+        "forks": 19034,
+        "open_issues": 9782,
+        "watchers": 709,
+        "last_push": "2026-04-14T19:12:01Z",
+        "created_at": "2025-02-22T17:41:21Z",
+        "language": "Shell",
+        "license": null,
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v2.1.108",
+        "latest_release_date": "2026-04-14T19:12:01Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
+      "downloads": {
+        "npm": {
+          "weekly_downloads": 12718444,
+          "monthly_downloads": 45717965,
+          "daily_downloads": [
+            {
+              "day": "2026-03-15",
+              "downloads": 541643
+            },
+            {
+              "day": "2026-03-16",
+              "downloads": 1380145
+            },
+            {
+              "day": "2026-03-17",
+              "downloads": 2120113
+            },
+            {
+              "day": "2026-03-18",
+              "downloads": 1892030
+            },
+            {
+              "day": "2026-03-19",
+              "downloads": 2164406
+            },
+            {
+              "day": "2026-03-20",
+              "downloads": 1590759
+            },
+            {
+              "day": "2026-03-21",
+              "downloads": 571185
+            },
+            {
+              "day": "2026-03-22",
+              "downloads": 480508
+            },
+            {
+              "day": "2026-03-23",
+              "downloads": 1641081
+            },
+            {
+              "day": "2026-03-24",
+              "downloads": 1668349
+            },
+            {
+              "day": "2026-03-25",
+              "downloads": 2027298
+            },
+            {
+              "day": "2026-03-26",
+              "downloads": 2229781
+            },
+            {
+              "day": "2026-03-27",
+              "downloads": 1963019
+            },
+            {
+              "day": "2026-03-28",
+              "downloads": 568521
+            },
+            {
+              "day": "2026-03-29",
+              "downloads": 732801
+            },
+            {
+              "day": "2026-03-30",
+              "downloads": 1580754
+            },
+            {
+              "day": "2026-03-31",
+              "downloads": 2049028
+            },
+            {
+              "day": "2026-04-01",
+              "downloads": 2201378
+            },
+            {
+              "day": "2026-04-02",
+              "downloads": 1901775
+            },
+            {
+              "day": "2026-04-03",
+              "downloads": 1254183
+            },
+            {
+              "day": "2026-04-04",
+              "downloads": 780079
+            },
+            {
+              "day": "2026-04-05",
+              "downloads": 408075
+            },
+            {
+              "day": "2026-04-06",
+              "downloads": 1252610
+            },
+            {
+              "day": "2026-04-07",
+              "downloads": 2357033
+            },
+            {
+              "day": "2026-04-08",
+              "downloads": 2828576
+            },
+            {
+              "day": "2026-04-09",
+              "downloads": 2117183
+            },
+            {
+              "day": "2026-04-10",
+              "downloads": 2171588
+            },
+            {
+              "day": "2026-04-11",
+              "downloads": 531411
+            },
+            {
+              "day": "2026-04-12",
+              "downloads": 823561
+            },
+            {
+              "day": "2026-04-13",
+              "downloads": 1889092
+            }
+          ]
+        },
+        "pypi": null,
+        "weekly_downloads": 12718444,
+        "monthly_downloads": 45717965,
+        "daily_downloads": [
+          {
+            "day": "2026-03-15",
+            "downloads": 541643
+          },
+          {
+            "day": "2026-03-16",
+            "downloads": 1380145
+          },
+          {
+            "day": "2026-03-17",
+            "downloads": 2120113
+          },
+          {
+            "day": "2026-03-18",
+            "downloads": 1892030
+          },
+          {
+            "day": "2026-03-19",
+            "downloads": 2164406
+          },
+          {
+            "day": "2026-03-20",
+            "downloads": 1590759
+          },
+          {
+            "day": "2026-03-21",
+            "downloads": 571185
+          },
+          {
+            "day": "2026-03-22",
+            "downloads": 480508
+          },
+          {
+            "day": "2026-03-23",
+            "downloads": 1641081
+          },
+          {
+            "day": "2026-03-24",
+            "downloads": 1668349
+          },
+          {
+            "day": "2026-03-25",
+            "downloads": 2027298
+          },
+          {
+            "day": "2026-03-26",
+            "downloads": 2229781
+          },
+          {
+            "day": "2026-03-27",
+            "downloads": 1963019
+          },
+          {
+            "day": "2026-03-28",
+            "downloads": 568521
+          },
+          {
+            "day": "2026-03-29",
+            "downloads": 732801
+          },
+          {
+            "day": "2026-03-30",
+            "downloads": 1580754
+          },
+          {
+            "day": "2026-03-31",
+            "downloads": 2049028
+          },
+          {
+            "day": "2026-04-01",
+            "downloads": 2201378
+          },
+          {
+            "day": "2026-04-02",
+            "downloads": 1901775
+          },
+          {
+            "day": "2026-04-03",
+            "downloads": 1254183
+          },
+          {
+            "day": "2026-04-04",
+            "downloads": 780079
+          },
+          {
+            "day": "2026-04-05",
+            "downloads": 408075
+          },
+          {
+            "day": "2026-04-06",
+            "downloads": 1252610
+          },
+          {
+            "day": "2026-04-07",
+            "downloads": 2357033
+          },
+          {
+            "day": "2026-04-08",
+            "downloads": 2828576
+          },
+          {
+            "day": "2026-04-09",
+            "downloads": 2117183
+          },
+          {
+            "day": "2026-04-10",
+            "downloads": 2171588
+          },
+          {
+            "day": "2026-04-11",
+            "downloads": 531411
+          },
+          {
+            "day": "2026-04-12",
+            "downloads": 823561
+          },
+          {
+            "day": "2026-04-13",
+            "downloads": 1889092
+          }
+        ]
+      },
+      "vscode": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 186,
+        "hn_comments_7d": 613,
+        "reddit_posts_7d": 0
+      },
+      "momentum_score": 55,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "rank": 4
     },
     {
       "slug": "cursor",
@@ -907,11 +726,302 @@
       "vscode": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 43,
-        "hn_comments_7d": 129,
+        "hn_stories_7d": 41,
+        "hn_comments_7d": 131,
         "reddit_posts_7d": 0
       },
       "momentum_score": 53,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "rank": 5
+    },
+    {
+      "slug": "codex-cli",
+      "name": "Codex CLI",
+      "vendor": "OpenAI",
+      "category": "terminal-agent",
+      "website": "https://openai.com/index/codex/",
+      "color": "#10A37F",
+      "github": {
+        "stars": 75252,
+        "forks": 10658,
+        "open_issues": 2590,
+        "watchers": 428,
+        "last_push": "2026-04-14T19:47:31Z",
+        "created_at": "2025-04-13T05:37:54Z",
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "rust-v0.120.0",
+        "latest_release_date": "2026-04-11T02:53:49Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
+      "downloads": {
+        "npm": {
+          "weekly_downloads": 3311228,
+          "monthly_downloads": 14077759,
+          "daily_downloads": [
+            {
+              "day": "2026-03-15",
+              "downloads": 246107
+            },
+            {
+              "day": "2026-03-16",
+              "downloads": 399202
+            },
+            {
+              "day": "2026-03-17",
+              "downloads": 564771
+            },
+            {
+              "day": "2026-03-18",
+              "downloads": 469343
+            },
+            {
+              "day": "2026-03-19",
+              "downloads": 1023811
+            },
+            {
+              "day": "2026-03-20",
+              "downloads": 652688
+            },
+            {
+              "day": "2026-03-21",
+              "downloads": 280432
+            },
+            {
+              "day": "2026-03-22",
+              "downloads": 290661
+            },
+            {
+              "day": "2026-03-23",
+              "downloads": 472679
+            },
+            {
+              "day": "2026-03-24",
+              "downloads": 473162
+            },
+            {
+              "day": "2026-03-25",
+              "downloads": 408320
+            },
+            {
+              "day": "2026-03-26",
+              "downloads": 416751
+            },
+            {
+              "day": "2026-03-27",
+              "downloads": 886544
+            },
+            {
+              "day": "2026-03-28",
+              "downloads": 335297
+            },
+            {
+              "day": "2026-03-29",
+              "downloads": 281074
+            },
+            {
+              "day": "2026-03-30",
+              "downloads": 530940
+            },
+            {
+              "day": "2026-03-31",
+              "downloads": 505336
+            },
+            {
+              "day": "2026-04-01",
+              "downloads": 613006
+            },
+            {
+              "day": "2026-04-02",
+              "downloads": 509713
+            },
+            {
+              "day": "2026-04-03",
+              "downloads": 420215
+            },
+            {
+              "day": "2026-04-04",
+              "downloads": 286588
+            },
+            {
+              "day": "2026-04-05",
+              "downloads": 263485
+            },
+            {
+              "day": "2026-04-06",
+              "downloads": 436406
+            },
+            {
+              "day": "2026-04-07",
+              "downloads": 496688
+            },
+            {
+              "day": "2026-04-08",
+              "downloads": 486316
+            },
+            {
+              "day": "2026-04-09",
+              "downloads": 437645
+            },
+            {
+              "day": "2026-04-10",
+              "downloads": 433852
+            },
+            {
+              "day": "2026-04-11",
+              "downloads": 472598
+            },
+            {
+              "day": "2026-04-12",
+              "downloads": 385442
+            },
+            {
+              "day": "2026-04-13",
+              "downloads": 598687
+            }
+          ]
+        },
+        "pypi": null,
+        "weekly_downloads": 3311228,
+        "monthly_downloads": 14077759,
+        "daily_downloads": [
+          {
+            "day": "2026-03-15",
+            "downloads": 246107
+          },
+          {
+            "day": "2026-03-16",
+            "downloads": 399202
+          },
+          {
+            "day": "2026-03-17",
+            "downloads": 564771
+          },
+          {
+            "day": "2026-03-18",
+            "downloads": 469343
+          },
+          {
+            "day": "2026-03-19",
+            "downloads": 1023811
+          },
+          {
+            "day": "2026-03-20",
+            "downloads": 652688
+          },
+          {
+            "day": "2026-03-21",
+            "downloads": 280432
+          },
+          {
+            "day": "2026-03-22",
+            "downloads": 290661
+          },
+          {
+            "day": "2026-03-23",
+            "downloads": 472679
+          },
+          {
+            "day": "2026-03-24",
+            "downloads": 473162
+          },
+          {
+            "day": "2026-03-25",
+            "downloads": 408320
+          },
+          {
+            "day": "2026-03-26",
+            "downloads": 416751
+          },
+          {
+            "day": "2026-03-27",
+            "downloads": 886544
+          },
+          {
+            "day": "2026-03-28",
+            "downloads": 335297
+          },
+          {
+            "day": "2026-03-29",
+            "downloads": 281074
+          },
+          {
+            "day": "2026-03-30",
+            "downloads": 530940
+          },
+          {
+            "day": "2026-03-31",
+            "downloads": 505336
+          },
+          {
+            "day": "2026-04-01",
+            "downloads": 613006
+          },
+          {
+            "day": "2026-04-02",
+            "downloads": 509713
+          },
+          {
+            "day": "2026-04-03",
+            "downloads": 420215
+          },
+          {
+            "day": "2026-04-04",
+            "downloads": 286588
+          },
+          {
+            "day": "2026-04-05",
+            "downloads": 263485
+          },
+          {
+            "day": "2026-04-06",
+            "downloads": 436406
+          },
+          {
+            "day": "2026-04-07",
+            "downloads": 496688
+          },
+          {
+            "day": "2026-04-08",
+            "downloads": 486316
+          },
+          {
+            "day": "2026-04-09",
+            "downloads": 437645
+          },
+          {
+            "day": "2026-04-10",
+            "downloads": 433852
+          },
+          {
+            "day": "2026-04-11",
+            "downloads": 472598
+          },
+          {
+            "day": "2026-04-12",
+            "downloads": 385442
+          },
+          {
+            "day": "2026-04-13",
+            "downloads": 598687
+          }
+        ]
+      },
+      "vscode": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 7,
+        "hn_comments_7d": 11,
+        "reddit_posts_7d": 0
+      },
+      "momentum_score": 52,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
@@ -924,7 +1034,24 @@
       "category": "ide-extension",
       "website": "https://cline.bot",
       "color": "#F59E0B",
-      "github": null,
+      "github": {
+        "stars": 60275,
+        "forks": 6153,
+        "open_issues": 680,
+        "watchers": 272,
+        "last_push": "2026-04-14T19:43:39Z",
+        "created_at": "2024-07-06T07:28:10Z",
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v3.78.0",
+        "latest_release_date": "2026-04-10T20:40:51Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
       "downloads": {
         "npm": null,
         "pypi": null,
@@ -933,50 +1060,22 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 3596765,
+        "installs": 3607146,
         "average_rating": 4.211469650268555,
         "rating_count": 279,
-        "update_count": 47833129
+        "update_count": 47896606
       },
       "openrouter": null,
       "community": {
         "hn_stories_7d": 2,
-        "hn_comments_7d": 4,
+        "hn_comments_7d": 3,
         "reddit_posts_7d": 0
       },
-      "momentum_score": 52,
+      "momentum_score": 51,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
       "rank": 7
-    },
-    {
-      "slug": "hermes-agent",
-      "name": "Hermes Agent",
-      "vendor": "Nous Research",
-      "category": "personal-agent",
-      "website": "https://hermes-agent.nousresearch.com",
-      "color": "#7C3AED",
-      "github": null,
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 7,
-        "hn_comments_7d": 3,
-        "reddit_posts_7d": 0
-      },
-      "momentum_score": 50,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "rank": 8
     },
     {
       "slug": "windsurf",
@@ -996,11 +1095,82 @@
       "vscode": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 5,
+        "hn_stories_7d": 6,
         "hn_comments_7d": 6,
         "reddit_posts_7d": 0
       },
       "momentum_score": 50,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "rank": 8
+    },
+    {
+      "slug": "kilo-code",
+      "name": "Kilo Code",
+      "vendor": "Kilo Code",
+      "category": "ide-extension",
+      "website": "https://kilocode.ai",
+      "color": "#8B5CF6",
+      "github": {
+        "stars": 18089,
+        "forks": 2386,
+        "open_issues": 992,
+        "watchers": 97,
+        "last_push": "2026-04-14T17:54:16Z",
+        "created_at": "2025-03-10T15:34:26Z",
+        "language": "TypeScript",
+        "license": "MIT",
+        "commit_velocity_4w": 2233,
+        "contributors_count": 100,
+        "top_contributors": [
+          {
+            "login": "thdxr",
+            "commits": 2004
+          },
+          {
+            "login": "adamdotdevin",
+            "commits": 1895
+          },
+          {
+            "login": "rekram1-node",
+            "commits": 1331
+          },
+          {
+            "login": "markijbema",
+            "commits": 1253
+          },
+          {
+            "login": "actions-user",
+            "commits": 1095
+          }
+        ],
+        "latest_release": "v7.2.1",
+        "latest_release_date": "2026-04-08T16:32:38Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": {
+        "installs": 972131,
+        "average_rating": 3.8698225021362305,
+        "rating_count": 169,
+        "update_count": 14369599
+      },
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 1,
+        "hn_comments_7d": 0,
+        "reddit_posts_7d": 0
+      },
+      "momentum_score": 48,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
@@ -1035,6 +1205,105 @@
       "rank": 10
     },
     {
+      "slug": "roo-code",
+      "name": "Roo Code",
+      "vendor": "Roo Code",
+      "category": "ide-extension",
+      "website": "https://roocode.com",
+      "color": "#84CC16",
+      "github": {
+        "stars": 23115,
+        "forks": 2987,
+        "open_issues": 850,
+        "watchers": 136,
+        "last_push": "2026-04-14T17:37:38Z",
+        "created_at": "2024-10-31T17:56:50Z",
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v3.52.1",
+        "latest_release_date": "2026-04-13T22:33:01Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": {
+        "installs": 1478367,
+        "average_rating": 4.77876091003418,
+        "rating_count": 339,
+        "update_count": 23454708
+      },
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 0,
+        "reddit_posts_7d": 0
+      },
+      "momentum_score": 48,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "rank": 11
+    },
+    {
+      "slug": "openhands",
+      "name": "OpenHands",
+      "vendor": "All Hands AI",
+      "category": "terminal-agent",
+      "website": "https://www.all-hands.dev",
+      "color": "#059669",
+      "github": {
+        "stars": 71199,
+        "forks": 8946,
+        "open_issues": 403,
+        "watchers": 433,
+        "last_push": "2026-04-14T19:40:31Z",
+        "created_at": "2024-03-13T03:33:31Z",
+        "language": "Python",
+        "license": "NOASSERTION",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "1.6.0",
+        "latest_release_date": "2026-03-30T16:01:39Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": {
+          "weekly_downloads": 1293974,
+          "monthly_downloads": 2455103,
+          "daily_downloads": []
+        },
+        "weekly_downloads": 1293974,
+        "monthly_downloads": 2455103,
+        "daily_downloads": []
+      },
+      "vscode": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 0,
+        "reddit_posts_7d": 0
+      },
+      "momentum_score": 47,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "rank": 12
+    },
+    {
       "slug": "isekai-zero",
       "name": "ISEKAI ZERO",
       "vendor": "ISEKAI",
@@ -1060,7 +1329,7 @@
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
-      "rank": 11
+      "rank": 13
     },
     {
       "slug": "gemini-cli",
@@ -1069,16 +1338,29 @@
       "category": "terminal-agent",
       "website": "https://github.com/google-gemini/gemini-cli",
       "color": "#4285F4",
-      "github": null,
+      "github": {
+        "stars": 101241,
+        "forks": 13103,
+        "open_issues": 2930,
+        "watchers": 536,
+        "last_push": "2026-04-14T19:43:34Z",
+        "created_at": "2025-04-17T17:04:31Z",
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v0.37.2",
+        "latest_release_date": "2026-04-13T20:19:57Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
       "downloads": {
         "npm": {
-          "weekly_downloads": 703991,
-          "monthly_downloads": 3053338,
+          "weekly_downloads": 743764,
+          "monthly_downloads": 3091843,
           "daily_downloads": [
-            {
-              "day": "2026-03-14",
-              "downloads": 81360
-            },
             {
               "day": "2026-03-15",
               "downloads": 75186
@@ -1194,17 +1476,17 @@
             {
               "day": "2026-04-12",
               "downloads": 74195
+            },
+            {
+              "day": "2026-04-13",
+              "downloads": 119865
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 703991,
-        "monthly_downloads": 3053338,
+        "weekly_downloads": 743764,
+        "monthly_downloads": 3091843,
         "daily_downloads": [
-          {
-            "day": "2026-03-14",
-            "downloads": 81360
-          },
           {
             "day": "2026-03-15",
             "downloads": 75186
@@ -1320,6 +1602,10 @@
           {
             "day": "2026-04-12",
             "downloads": 74195
+          },
+          {
+            "day": "2026-04-13",
+            "downloads": 119865
           }
         ]
       },
@@ -1327,112 +1613,14 @@
       "openrouter": null,
       "community": {
         "hn_stories_7d": 6,
-        "hn_comments_7d": 21,
+        "hn_comments_7d": 20,
         "reddit_posts_7d": 0
       },
-      "momentum_score": 44,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "rank": 12
-    },
-    {
-      "slug": "openhands",
-      "name": "OpenHands",
-      "vendor": "All Hands AI",
-      "category": "terminal-agent",
-      "website": "https://www.all-hands.dev",
-      "color": "#059669",
-      "github": null,
-      "downloads": {
-        "npm": null,
-        "pypi": {
-          "weekly_downloads": 1293974,
-          "monthly_downloads": 2455103,
-          "daily_downloads": []
-        },
-        "weekly_downloads": 1293974,
-        "monthly_downloads": 2455103,
-        "daily_downloads": []
-      },
-      "vscode": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 0,
-        "hn_comments_7d": 0,
-        "reddit_posts_7d": 0
-      },
-      "momentum_score": 43,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "rank": 13
-    },
-    {
-      "slug": "roo-code",
-      "name": "Roo Code",
-      "vendor": "Roo Code",
-      "category": "ide-extension",
-      "website": "https://roocode.com",
-      "color": "#84CC16",
-      "github": null,
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": {
-        "installs": 1474948,
-        "average_rating": 4.77876091003418,
-        "rating_count": 339,
-        "update_count": 23315030
-      },
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 0,
-        "hn_comments_7d": 0,
-        "reddit_posts_7d": 0
-      },
-      "momentum_score": 42,
+      "momentum_score": 41,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
       "rank": 14
-    },
-    {
-      "slug": "kilo-code",
-      "name": "Kilo Code",
-      "vendor": "Kilo Code",
-      "category": "ide-extension",
-      "website": "https://kilocode.ai",
-      "color": "#8B5CF6",
-      "github": null,
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": {
-        "installs": 968309,
-        "average_rating": 3.886904716491699,
-        "rating_count": 168,
-        "update_count": 14352068
-      },
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 1,
-        "hn_comments_7d": 0,
-        "reddit_posts_7d": 0
-      },
-      "momentum_score": 40,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "rank": 15
     },
     {
       "slug": "aider",
@@ -1441,7 +1629,45 @@
       "category": "terminal-agent",
       "website": "https://aider.chat",
       "color": "#EF4444",
-      "github": null,
+      "github": {
+        "stars": 43329,
+        "forks": 4203,
+        "open_issues": 1482,
+        "watchers": 240,
+        "last_push": "2026-04-09T05:09:59Z",
+        "created_at": "2023-05-09T18:57:49Z",
+        "language": "Python",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 1,
+        "contributors_count": 100,
+        "top_contributors": [
+          {
+            "login": "paul-gauthier",
+            "commits": 12633
+          },
+          {
+            "login": "ei-grad",
+            "commits": 47
+          },
+          {
+            "login": "aider-chat-bot",
+            "commits": 43
+          },
+          {
+            "login": "joshuavial",
+            "commits": 32
+          },
+          {
+            "login": "fry69",
+            "commits": 27
+          }
+        ],
+        "latest_release": "v0.86.0",
+        "latest_release_date": "2025-08-09T17:42:19Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
       "downloads": {
         "npm": null,
         "pypi": {
@@ -1457,10 +1683,55 @@
       "openrouter": null,
       "community": {
         "hn_stories_7d": 1,
-        "hn_comments_7d": 8,
+        "hn_comments_7d": 9,
         "reddit_posts_7d": 0
       },
-      "momentum_score": 37,
+      "momentum_score": 41,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "rank": 15
+    },
+    {
+      "slug": "hermes-agent",
+      "name": "Hermes Agent",
+      "vendor": "Nous Research",
+      "category": "personal-agent",
+      "website": "https://hermes-agent.nousresearch.com",
+      "color": "#7C3AED",
+      "github": {
+        "stars": 83806,
+        "forks": 11287,
+        "open_issues": 4272,
+        "watchers": 331,
+        "last_push": "2026-04-14T19:44:52Z",
+        "created_at": "2025-07-22T22:22:28Z",
+        "language": "Python",
+        "license": "MIT",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v2026.4.13",
+        "latest_release_date": "2026-04-13T18:52:41Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": null
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 7,
+        "hn_comments_7d": 3,
+        "reddit_posts_7d": 0
+      },
+      "momentum_score": 40,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
