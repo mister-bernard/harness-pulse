@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-16T06:02:09.503Z",
+  "collected_at": "2026-04-17T06:02:17.644Z",
   "tools": [
     {
       "slug": "continue",
@@ -9,24 +9,24 @@
       "website": "https://continue.dev",
       "color": "#2563EB",
       "github": {
-        "stars": 32589,
-        "forks": 4387,
-        "open_issues": 572,
+        "stars": 32610,
+        "forks": 4388,
+        "open_issues": 578,
         "watchers": 140,
-        "last_push": "2026-04-16T03:38:11Z",
+        "last_push": "2026-04-17T03:31:41Z",
         "created_at": "2023-05-24T03:39:39Z",
         "language": "TypeScript",
         "license": "Apache-2.0",
-        "commit_velocity_4w": 141,
+        "commit_velocity_4w": 145,
         "contributors_count": 100,
         "top_contributors": [
           {
             "login": "sestinj",
-            "commits": 9690
+            "commits": 9691
           },
           {
             "login": "RomneyDa",
-            "commits": 3066
+            "commits": 3069
           },
           {
             "login": "Patrick-Erichsen",
@@ -45,9 +45,9 @@
         "latest_release_date": "2026-03-27T21:25:10Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 234,
-        "stars_delta_30d": 289,
-        "stars_velocity_30d": 289
+        "stars_delta_7d": 194,
+        "stars_delta_30d": 210,
+        "stars_velocity_30d": 210
       },
       "downloads": {
         "npm": null,
@@ -57,32 +57,69 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 2634102,
+        "installs": 2644242,
         "average_rating": 3.546762704849243,
         "rating_count": 139,
-        "update_count": 15242052
+        "update_count": 15250402
       },
       "jetbrains": {
-        "downloads": 1064853,
+        "downloads": 1067150,
         "rating": null,
         "votes": null
       },
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 14,
-        "hn_comments_7d": 491,
+        "hn_stories_7d": 12,
+        "hn_comments_7d": 488,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 12123
       },
-      "trends": null,
-      "momentum_score": 76,
+      "trends": {
+        "avg_7d": 66,
+        "avg_30d": 75,
+        "latest": 79,
+        "points": [
+          78,
+          83,
+          80,
+          69,
+          70,
+          85,
+          86,
+          86,
+          83,
+          87,
+          82,
+          85,
+          92,
+          93,
+          82,
+          100,
+          66,
+          60,
+          62,
+          66,
+          66,
+          66,
+          68,
+          65,
+          59,
+          60,
+          68,
+          64,
+          64,
+          68,
+          79
+        ]
+      },
+      "momentum_score": 75,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
-      "_velocity_bonus": 5,
+      "_velocity_bonus": 6,
       "rank": 1
     },
     {
@@ -101,33 +138,133 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 72953633,
+        "installs": 72977048,
         "average_rating": 4.102099418640137,
         "rating_count": 1048,
-        "update_count": 576859436
+        "update_count": 576882159
       },
       "jetbrains": {
-        "downloads": 42694465,
+        "downloads": 42744071,
         "rating": null,
         "votes": null
       },
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 10,
-        "hn_comments_7d": 20,
+        "hn_stories_7d": 11,
+        "hn_comments_7d": 25,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 253
       },
-      "trends": null,
-      "momentum_score": 62,
+      "trends": {
+        "avg_7d": 60,
+        "avg_30d": 69,
+        "latest": 76,
+        "points": [
+          89,
+          90,
+          86,
+          59,
+          57,
+          87,
+          86,
+          84,
+          91,
+          93,
+          69,
+          66,
+          91,
+          92,
+          100,
+          88,
+          50,
+          35,
+          34,
+          49,
+          58,
+          58,
+          60,
+          55,
+          42,
+          35,
+          59,
+          74,
+          66,
+          71,
+          76
+        ]
+      },
+      "momentum_score": 63,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
       "rank": 2
+    },
+    {
+      "slug": "roo-code",
+      "name": "Roo Code",
+      "vendor": "Roo Code",
+      "category": "ide-extension",
+      "website": "https://roocode.com",
+      "color": "#84CC16",
+      "github": {
+        "stars": 23167,
+        "forks": 3000,
+        "open_issues": 869,
+        "watchers": 136,
+        "last_push": "2026-04-16T23:21:18Z",
+        "created_at": "2024-10-31T17:56:50Z",
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v3.52.1",
+        "latest_release_date": "2026-04-13T22:33:01Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": 133,
+        "stars_delta_30d": 267,
+        "stars_velocity_30d": 267
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": {
+        "installs": 1489429,
+        "average_rating": 4.77876091003418,
+        "rating_count": 339,
+        "update_count": 23547870
+      },
+      "jetbrains": {
+        "downloads": 4660,
+        "rating": null,
+        "votes": null
+      },
+      "docker": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 0,
+        "reddit_posts_7d": 0
+      },
+      "stackoverflow": {
+        "total_questions": 3
+      },
+      "trends": null,
+      "momentum_score": 58,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "_velocity_bonus": 4,
+      "rank": 3
     },
     {
       "slug": "cursor",
@@ -149,140 +286,56 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 36,
-        "hn_comments_7d": 127,
+        "hn_stories_7d": 35,
+        "hn_comments_7d": 139,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
-        "total_questions": 26228
+        "total_questions": 26229
       },
       "trends": {
         "avg_7d": 64,
-        "avg_30d": 76,
-        "latest": 72,
+        "avg_30d": 74,
+        "latest": 80,
         "points": [
-          93,
-          96,
           100,
-          95,
-          75,
-          67,
-          90,
-          88,
-          94,
-          92,
-          87,
-          72,
-          69,
-          90,
-          87,
           96,
-          67,
-          67,
-          50,
-          52,
-          66,
-          72,
-          73,
-          74,
+          94,
+          69,
+          65,
+          87,
+          88,
+          91,
+          89,
+          83,
           68,
-          52,
-          49,
           70,
-          72,
+          86,
+          78,
+          92,
+          84,
+          65,
+          51,
+          50,
+          62,
+          70,
+          69,
           67,
-          72
+          64,
+          48,
+          48,
+          69,
+          69,
+          65,
+          70,
+          80
         ]
       },
-      "momentum_score": 57,
+      "momentum_score": 55,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
-      "rank": 3
-    },
-    {
-      "slug": "kilo-code",
-      "name": "Kilo Code",
-      "vendor": "Kilo Code",
-      "category": "ide-extension",
-      "website": "https://kilocode.ai",
-      "color": "#8B5CF6",
-      "github": {
-        "stars": 18166,
-        "forks": 2395,
-        "open_issues": 1016,
-        "watchers": 99,
-        "last_push": "2026-04-16T04:59:22Z",
-        "created_at": "2025-03-10T15:34:26Z",
-        "language": "TypeScript",
-        "license": "MIT",
-        "commit_velocity_4w": 2455,
-        "contributors_count": 100,
-        "top_contributors": [
-          {
-            "login": "thdxr",
-            "commits": 2007
-          },
-          {
-            "login": "adamdotdevin",
-            "commits": 1897
-          },
-          {
-            "login": "rekram1-node",
-            "commits": 1340
-          },
-          {
-            "login": "markijbema",
-            "commits": 1254
-          },
-          {
-            "login": "actions-user",
-            "commits": 1095
-          }
-        ],
-        "latest_release": "v7.2.10",
-        "latest_release_date": "2026-04-15T20:11:26Z",
-        "issue_close_ratio": 0,
-        "closed_issues": 0,
-        "stars_delta_7d": 266,
-        "stars_delta_30d": 266,
-        "stars_velocity_30d": 266
-      },
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": {
-        "installs": 977960,
-        "average_rating": 3.858823537826538,
-        "rating_count": 170,
-        "update_count": 14397710
-      },
-      "jetbrains": {
-        "downloads": 220824,
-        "rating": null,
-        "votes": null
-      },
-      "docker": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 0,
-        "hn_comments_7d": 0,
-        "reddit_posts_7d": 0
-      },
-      "stackoverflow": {
-        "total_questions": 1
-      },
-      "trends": null,
-      "momentum_score": 56,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "_velocity_bonus": 8,
       "rank": 4
     },
     {
@@ -293,11 +346,11 @@
       "website": "https://www.all-hands.dev",
       "color": "#059669",
       "github": {
-        "stars": 71292,
-        "forks": 8963,
-        "open_issues": 399,
+        "stars": 71357,
+        "forks": 8973,
+        "open_issues": 427,
         "watchers": 434,
-        "last_push": "2026-04-16T05:28:30Z",
+        "last_push": "2026-04-17T05:44:18Z",
         "created_at": "2024-03-13T03:33:31Z",
         "language": "Python",
         "license": "NOASSERTION",
@@ -315,12 +368,12 @@
       "downloads": {
         "npm": null,
         "pypi": {
-          "weekly_downloads": 1256214,
-          "monthly_downloads": 2503458,
+          "weekly_downloads": 1222157,
+          "monthly_downloads": 2500669,
           "daily_downloads": []
         },
-        "weekly_downloads": 1256214,
-        "monthly_downloads": 2503458,
+        "weekly_downloads": 1222157,
+        "monthly_downloads": 2500669,
         "daily_downloads": []
       },
       "vscode": null,
@@ -335,13 +388,171 @@
       "stackoverflow": {
         "total_questions": 0
       },
-      "trends": null,
-      "momentum_score": 53,
+      "trends": {
+        "avg_7d": 28,
+        "avg_30d": 45,
+        "latest": 46,
+        "points": [
+          57,
+          43,
+          50,
+          65,
+          58,
+          72,
+          53,
+          83,
+          63,
+          57,
+          71,
+          71,
+          61,
+          67,
+          100,
+          54,
+          25,
+          21,
+          18,
+          19,
+          21,
+          22,
+          28,
+          22,
+          22,
+          21,
+          30,
+          27,
+          21,
+          29,
+          46
+        ]
+      },
+      "momentum_score": 52,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
       "rank": 5
+    },
+    {
+      "slug": "kilo-code",
+      "name": "Kilo Code",
+      "vendor": "Kilo Code",
+      "category": "ide-extension",
+      "website": "https://kilocode.ai",
+      "color": "#8B5CF6",
+      "github": {
+        "stars": 18210,
+        "forks": 2401,
+        "open_issues": 1054,
+        "watchers": 99,
+        "last_push": "2026-04-17T05:59:14Z",
+        "created_at": "2025-03-10T15:34:26Z",
+        "language": "TypeScript",
+        "license": "MIT",
+        "commit_velocity_4w": 2508,
+        "contributors_count": 100,
+        "top_contributors": [
+          {
+            "login": "thdxr",
+            "commits": 2007
+          },
+          {
+            "login": "adamdotdevin",
+            "commits": 1897
+          },
+          {
+            "login": "rekram1-node",
+            "commits": 1340
+          },
+          {
+            "login": "markijbema",
+            "commits": 1258
+          },
+          {
+            "login": "actions-user",
+            "commits": 1095
+          }
+        ],
+        "latest_release": "v7.2.10",
+        "latest_release_date": "2026-04-15T20:11:26Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": 210,
+        "stars_delta_30d": 210,
+        "stars_velocity_30d": 210
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": {
+        "installs": 982466,
+        "average_rating": 3.86549711227417,
+        "rating_count": 171,
+        "update_count": 14536450
+      },
+      "jetbrains": {
+        "downloads": 222135,
+        "rating": null,
+        "votes": null
+      },
+      "docker": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 0,
+        "reddit_posts_7d": 0
+      },
+      "stackoverflow": {
+        "total_questions": 1
+      },
+      "trends": {
+        "avg_7d": 49,
+        "avg_30d": 63,
+        "latest": 55,
+        "points": [
+          86,
+          89,
+          67,
+          63,
+          71,
+          73,
+          69,
+          72,
+          75,
+          72,
+          67,
+          78,
+          73,
+          83,
+          75,
+          100,
+          62,
+          46,
+          50,
+          52,
+          51,
+          55,
+          50,
+          47,
+          43,
+          40,
+          47,
+          53,
+          52,
+          52,
+          55
+        ]
+      },
+      "momentum_score": 51,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "_velocity_bonus": 8,
+      "rank": 6
     },
     {
       "slug": "openclaw",
@@ -351,40 +562,40 @@
       "website": "https://openclaw.com",
       "color": "#DC2626",
       "github": {
-        "stars": 358328,
-        "forks": 72845,
-        "open_issues": 18869,
+        "stars": 359014,
+        "forks": 73038,
+        "open_issues": 18954,
         "watchers": 1758,
-        "last_push": "2026-04-16T05:56:47Z",
+        "last_push": "2026-04-17T05:59:37Z",
         "created_at": "2025-11-24T10:16:47Z",
         "language": "TypeScript",
         "license": "MIT",
-        "commit_velocity_4w": 11132,
+        "commit_velocity_4w": 11308,
         "contributors_count": 98,
         "top_contributors": [
           {
             "login": "steipete",
-            "commits": 18418
+            "commits": 18477
           },
           {
             "login": "vincentkoc",
-            "commits": 3506
+            "commits": 3515
           },
           {
             "login": "Takhoffman",
-            "commits": 1045
+            "commits": 1047
           },
           {
             "login": "obviyus",
-            "commits": 979
+            "commits": 1011
           },
           {
             "login": "gumadeiras",
-            "commits": 821
+            "commits": 840
           }
         ],
-        "latest_release": "v2026.4.14",
-        "latest_release_date": "2026-04-14T13:03:29Z",
+        "latest_release": "v2026.4.15",
+        "latest_release_date": "2026-04-16T21:50:22Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
         "stars_delta_7d": 0,
@@ -393,13 +604,9 @@
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 1666593,
-          "monthly_downloads": 7523958,
+          "weekly_downloads": 1605462,
+          "monthly_downloads": 7372876,
           "daily_downloads": [
-            {
-              "day": "2026-03-16",
-              "downloads": 385758
-            },
             {
               "day": "2026-03-17",
               "downloads": 358713
@@ -515,17 +722,17 @@
             {
               "day": "2026-04-14",
               "downloads": 273458
+            },
+            {
+              "day": "2026-04-15",
+              "downloads": 234676
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 1666593,
-        "monthly_downloads": 7523958,
+        "weekly_downloads": 1605462,
+        "monthly_downloads": 7372876,
         "daily_downloads": [
-          {
-            "day": "2026-03-16",
-            "downloads": 385758
-          },
           {
             "day": "2026-03-17",
             "downloads": 358713
@@ -641,6 +848,10 @@
           {
             "day": "2026-04-14",
             "downloads": 273458
+          },
+          {
+            "day": "2026-04-15",
+            "downloads": 234676
           }
         ]
       },
@@ -650,319 +861,128 @@
       "openrouter": null,
       "community": {
         "hn_stories_7d": 34,
-        "hn_comments_7d": 291,
+        "hn_comments_7d": 301,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 3
       },
-      "trends": null,
-      "momentum_score": 50,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "_velocity_bonus": 0,
-      "rank": 6
-    },
-    {
-      "slug": "codex-cli",
-      "name": "Codex CLI",
-      "vendor": "OpenAI",
-      "category": "terminal-agent",
-      "website": "https://openai.com/index/codex/",
-      "color": "#10A37F",
-      "github": {
-        "stars": 75551,
-        "forks": 10719,
-        "open_issues": 2691,
-        "watchers": 430,
-        "last_push": "2026-04-16T06:00:25Z",
-        "created_at": "2025-04-13T05:37:54Z",
-        "language": "Rust",
-        "license": "Apache-2.0",
-        "commit_velocity_4w": 0,
-        "contributors_count": null,
-        "top_contributors": [],
-        "latest_release": "rust-v0.121.0",
-        "latest_release_date": "2026-04-15T20:45:18Z",
-        "issue_close_ratio": 0,
-        "closed_issues": 0,
-        "stars_delta_7d": 0,
-        "stars_delta_30d": 0,
-        "stars_velocity_30d": 0
-      },
-      "downloads": {
-        "npm": {
-          "weekly_downloads": 3386187,
-          "monthly_downloads": 14403299,
-          "daily_downloads": [
-            {
-              "day": "2026-03-16",
-              "downloads": 399202
-            },
-            {
-              "day": "2026-03-17",
-              "downloads": 564771
-            },
-            {
-              "day": "2026-03-18",
-              "downloads": 469343
-            },
-            {
-              "day": "2026-03-19",
-              "downloads": 1023811
-            },
-            {
-              "day": "2026-03-20",
-              "downloads": 652688
-            },
-            {
-              "day": "2026-03-21",
-              "downloads": 280432
-            },
-            {
-              "day": "2026-03-22",
-              "downloads": 290661
-            },
-            {
-              "day": "2026-03-23",
-              "downloads": 472679
-            },
-            {
-              "day": "2026-03-24",
-              "downloads": 473162
-            },
-            {
-              "day": "2026-03-25",
-              "downloads": 408320
-            },
-            {
-              "day": "2026-03-26",
-              "downloads": 416751
-            },
-            {
-              "day": "2026-03-27",
-              "downloads": 886544
-            },
-            {
-              "day": "2026-03-28",
-              "downloads": 335297
-            },
-            {
-              "day": "2026-03-29",
-              "downloads": 281074
-            },
-            {
-              "day": "2026-03-30",
-              "downloads": 530940
-            },
-            {
-              "day": "2026-03-31",
-              "downloads": 505336
-            },
-            {
-              "day": "2026-04-01",
-              "downloads": 613006
-            },
-            {
-              "day": "2026-04-02",
-              "downloads": 509713
-            },
-            {
-              "day": "2026-04-03",
-              "downloads": 420215
-            },
-            {
-              "day": "2026-04-04",
-              "downloads": 286588
-            },
-            {
-              "day": "2026-04-05",
-              "downloads": 263485
-            },
-            {
-              "day": "2026-04-06",
-              "downloads": 436406
-            },
-            {
-              "day": "2026-04-07",
-              "downloads": 496688
-            },
-            {
-              "day": "2026-04-08",
-              "downloads": 486316
-            },
-            {
-              "day": "2026-04-09",
-              "downloads": 437645
-            },
-            {
-              "day": "2026-04-10",
-              "downloads": 433852
-            },
-            {
-              "day": "2026-04-11",
-              "downloads": 472598
-            },
-            {
-              "day": "2026-04-12",
-              "downloads": 385442
-            },
-            {
-              "day": "2026-04-13",
-              "downloads": 598687
-            },
-            {
-              "day": "2026-04-14",
-              "downloads": 571647
-            }
-          ]
-        },
-        "pypi": null,
-        "weekly_downloads": 3386187,
-        "monthly_downloads": 14403299,
-        "daily_downloads": [
-          {
-            "day": "2026-03-16",
-            "downloads": 399202
-          },
-          {
-            "day": "2026-03-17",
-            "downloads": 564771
-          },
-          {
-            "day": "2026-03-18",
-            "downloads": 469343
-          },
-          {
-            "day": "2026-03-19",
-            "downloads": 1023811
-          },
-          {
-            "day": "2026-03-20",
-            "downloads": 652688
-          },
-          {
-            "day": "2026-03-21",
-            "downloads": 280432
-          },
-          {
-            "day": "2026-03-22",
-            "downloads": 290661
-          },
-          {
-            "day": "2026-03-23",
-            "downloads": 472679
-          },
-          {
-            "day": "2026-03-24",
-            "downloads": 473162
-          },
-          {
-            "day": "2026-03-25",
-            "downloads": 408320
-          },
-          {
-            "day": "2026-03-26",
-            "downloads": 416751
-          },
-          {
-            "day": "2026-03-27",
-            "downloads": 886544
-          },
-          {
-            "day": "2026-03-28",
-            "downloads": 335297
-          },
-          {
-            "day": "2026-03-29",
-            "downloads": 281074
-          },
-          {
-            "day": "2026-03-30",
-            "downloads": 530940
-          },
-          {
-            "day": "2026-03-31",
-            "downloads": 505336
-          },
-          {
-            "day": "2026-04-01",
-            "downloads": 613006
-          },
-          {
-            "day": "2026-04-02",
-            "downloads": 509713
-          },
-          {
-            "day": "2026-04-03",
-            "downloads": 420215
-          },
-          {
-            "day": "2026-04-04",
-            "downloads": 286588
-          },
-          {
-            "day": "2026-04-05",
-            "downloads": 263485
-          },
-          {
-            "day": "2026-04-06",
-            "downloads": 436406
-          },
-          {
-            "day": "2026-04-07",
-            "downloads": 496688
-          },
-          {
-            "day": "2026-04-08",
-            "downloads": 486316
-          },
-          {
-            "day": "2026-04-09",
-            "downloads": 437645
-          },
-          {
-            "day": "2026-04-10",
-            "downloads": 433852
-          },
-          {
-            "day": "2026-04-11",
-            "downloads": 472598
-          },
-          {
-            "day": "2026-04-12",
-            "downloads": 385442
-          },
-          {
-            "day": "2026-04-13",
-            "downloads": 598687
-          },
-          {
-            "day": "2026-04-14",
-            "downloads": 571647
-          }
+      "trends": {
+        "avg_7d": 31,
+        "avg_30d": 57,
+        "latest": 41,
+        "points": [
+          100,
+          98,
+          92,
+          85,
+          86,
+          97,
+          88,
+          81,
+          74,
+          68,
+          62,
+          67,
+          67,
+          64,
+          67,
+          63,
+          38,
+          37,
+          38,
+          38,
+          38,
+          37,
+          36,
+          34,
+          29,
+          28,
+          31,
+          30,
+          28,
+          30,
+          41
         ]
       },
-      "vscode": null,
-      "jetbrains": null,
-      "docker": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 4,
-        "hn_comments_7d": 9,
-        "reddit_posts_7d": 0
-      },
-      "stackoverflow": {
-        "total_questions": 5
-      },
-      "trends": null,
       "momentum_score": 49,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
       "rank": 7
+    },
+    {
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "vendor": "Codeium",
+      "category": "ai-ide",
+      "website": "https://windsurf.com",
+      "color": "#06B6D4",
+      "github": null,
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": null,
+      "jetbrains": null,
+      "docker": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 8,
+        "hn_comments_7d": 7,
+        "reddit_posts_7d": 0
+      },
+      "stackoverflow": {
+        "total_questions": 3
+      },
+      "trends": {
+        "avg_7d": 64,
+        "avg_30d": 76,
+        "latest": 68,
+        "points": [
+          85,
+          97,
+          96,
+          83,
+          83,
+          90,
+          87,
+          91,
+          85,
+          82,
+          85,
+          77,
+          83,
+          91,
+          100,
+          85,
+          61,
+          56,
+          54,
+          65,
+          66,
+          67,
+          66,
+          65,
+          54,
+          54,
+          63,
+          68,
+          67,
+          75,
+          68
+        ]
+      },
+      "momentum_score": 49,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "_velocity_bonus": 0,
+      "rank": 8
     },
     {
       "slug": "claude-code",
@@ -972,19 +992,19 @@
       "website": "https://docs.anthropic.com/en/docs/claude-code",
       "color": "#D97706",
       "github": {
-        "stars": 114553,
-        "forks": 19132,
-        "open_issues": 10153,
-        "watchers": 710,
-        "last_push": "2026-04-16T01:24:07Z",
+        "stars": 114975,
+        "forks": 19188,
+        "open_issues": 10380,
+        "watchers": 716,
+        "last_push": "2026-04-16T19:55:41Z",
         "created_at": "2025-02-22T17:41:21Z",
         "language": "Shell",
         "license": null,
         "commit_velocity_4w": 0,
         "contributors_count": null,
         "top_contributors": [],
-        "latest_release": "v2.1.110",
-        "latest_release_date": "2026-04-15T22:07:18Z",
+        "latest_release": "v2.1.112",
+        "latest_release_date": "2026-04-16T19:55:41Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
         "stars_delta_7d": 0,
@@ -993,13 +1013,9 @@
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 12906175,
-          "monthly_downloads": 47721086,
+          "weekly_downloads": 12470460,
+          "monthly_downloads": 48733802,
           "daily_downloads": [
-            {
-              "day": "2026-03-16",
-              "downloads": 1380145
-            },
             {
               "day": "2026-03-17",
               "downloads": 2120113
@@ -1115,17 +1131,17 @@
             {
               "day": "2026-04-14",
               "downloads": 2544764
+            },
+            {
+              "day": "2026-04-15",
+              "downloads": 2392861
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 12906175,
-        "monthly_downloads": 47721086,
+        "weekly_downloads": 12470460,
+        "monthly_downloads": 48733802,
         "daily_downloads": [
-          {
-            "day": "2026-03-16",
-            "downloads": 1380145
-          },
           {
             "day": "2026-03-17",
             "downloads": 2120113
@@ -1241,6 +1257,10 @@
           {
             "day": "2026-04-14",
             "downloads": 2544764
+          },
+          {
+            "day": "2026-04-15",
+            "downloads": 2392861
           }
         ]
       },
@@ -1249,184 +1269,386 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 196,
-        "hn_comments_7d": 651,
+        "hn_stories_7d": 199,
+        "hn_comments_7d": 693,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 24
       },
-      "trends": null,
-      "momentum_score": 48,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "_velocity_bonus": 0,
-      "rank": 8
-    },
-    {
-      "slug": "roo-code",
-      "name": "Roo Code",
-      "vendor": "Roo Code",
-      "category": "ide-extension",
-      "website": "https://roocode.com",
-      "color": "#84CC16",
-      "github": {
-        "stars": 23144,
-        "forks": 2990,
-        "open_issues": 852,
-        "watchers": 136,
-        "last_push": "2026-04-15T16:16:30Z",
-        "created_at": "2024-10-31T17:56:50Z",
-        "language": "TypeScript",
-        "license": "Apache-2.0",
-        "commit_velocity_4w": 0,
-        "contributors_count": null,
-        "top_contributors": [],
-        "latest_release": "v3.52.1",
-        "latest_release_date": "2026-04-13T22:33:01Z",
-        "issue_close_ratio": 0,
-        "closed_issues": 0,
-        "stars_delta_7d": 132,
-        "stars_delta_30d": 244,
-        "stars_velocity_30d": 244
-      },
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": {
-        "installs": 1484669,
-        "average_rating": 4.77876091003418,
-        "rating_count": 339,
-        "update_count": 23522919
-      },
-      "jetbrains": {
-        "downloads": 4424,
-        "rating": null,
-        "votes": null
-      },
-      "docker": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 0,
-        "hn_comments_7d": 0,
-        "reddit_posts_7d": 0
-      },
-      "stackoverflow": {
-        "total_questions": 3
-      },
       "trends": {
-        "avg_7d": 49,
-        "avg_30d": 66,
-        "latest": 61,
+        "avg_7d": 39,
+        "avg_30d": 46,
+        "latest": 49,
         "points": [
-          82,
-          61,
-          82,
-          80,
-          68,
-          76,
-          95,
-          96,
-          85,
+          46,
+          48,
+          46,
+          39,
+          40,
+          48,
+          51,
+          53,
+          51,
+          49,
+          40,
+          41,
+          50,
+          75,
           100,
-          92,
-          83,
-          66,
-          78,
-          93,
-          84,
-          49,
-          49,
-          43,
-          43,
-          51,
-          48,
-          48,
-          54,
-          51,
+          77,
           45,
+          33,
+          31,
+          38,
+          40,
+          39,
+          38,
           37,
-          50,
-          52,
-          50,
-          61
+          30,
+          30,
+          40,
+          39,
+          41,
+          41,
+          49
         ]
       },
       "momentum_score": 48,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
-      "_velocity_bonus": 4,
+      "_velocity_bonus": 0,
       "rank": 9
     },
     {
-      "slug": "isekai-zero",
-      "name": "ISEKAI ZERO",
-      "vendor": "ISEKAI",
-      "category": "personal-agent",
-      "website": null,
-      "color": "#A855F7",
-      "github": null,
+      "slug": "codex-cli",
+      "name": "Codex CLI",
+      "vendor": "OpenAI",
+      "category": "terminal-agent",
+      "website": "https://openai.com/index/codex/",
+      "color": "#10A37F",
+      "github": {
+        "stars": 75810,
+        "forks": 10762,
+        "open_issues": 2743,
+        "watchers": 431,
+        "last_push": "2026-04-17T05:56:23Z",
+        "created_at": "2025-04-13T05:37:54Z",
+        "language": "Rust",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "rust-v0.121.0",
+        "latest_release_date": "2026-04-15T20:45:18Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": 0,
+        "stars_delta_30d": 0,
+        "stars_velocity_30d": 0
+      },
       "downloads": {
-        "npm": null,
+        "npm": {
+          "weekly_downloads": 3526254,
+          "monthly_downloads": 14630480,
+          "daily_downloads": [
+            {
+              "day": "2026-03-17",
+              "downloads": 564771
+            },
+            {
+              "day": "2026-03-18",
+              "downloads": 469343
+            },
+            {
+              "day": "2026-03-19",
+              "downloads": 1023811
+            },
+            {
+              "day": "2026-03-20",
+              "downloads": 652688
+            },
+            {
+              "day": "2026-03-21",
+              "downloads": 280432
+            },
+            {
+              "day": "2026-03-22",
+              "downloads": 290661
+            },
+            {
+              "day": "2026-03-23",
+              "downloads": 472679
+            },
+            {
+              "day": "2026-03-24",
+              "downloads": 473162
+            },
+            {
+              "day": "2026-03-25",
+              "downloads": 408320
+            },
+            {
+              "day": "2026-03-26",
+              "downloads": 416751
+            },
+            {
+              "day": "2026-03-27",
+              "downloads": 886544
+            },
+            {
+              "day": "2026-03-28",
+              "downloads": 335297
+            },
+            {
+              "day": "2026-03-29",
+              "downloads": 281074
+            },
+            {
+              "day": "2026-03-30",
+              "downloads": 530940
+            },
+            {
+              "day": "2026-03-31",
+              "downloads": 505336
+            },
+            {
+              "day": "2026-04-01",
+              "downloads": 613006
+            },
+            {
+              "day": "2026-04-02",
+              "downloads": 509713
+            },
+            {
+              "day": "2026-04-03",
+              "downloads": 420215
+            },
+            {
+              "day": "2026-04-04",
+              "downloads": 286588
+            },
+            {
+              "day": "2026-04-05",
+              "downloads": 263485
+            },
+            {
+              "day": "2026-04-06",
+              "downloads": 436406
+            },
+            {
+              "day": "2026-04-07",
+              "downloads": 496688
+            },
+            {
+              "day": "2026-04-08",
+              "downloads": 486316
+            },
+            {
+              "day": "2026-04-09",
+              "downloads": 437645
+            },
+            {
+              "day": "2026-04-10",
+              "downloads": 433852
+            },
+            {
+              "day": "2026-04-11",
+              "downloads": 472598
+            },
+            {
+              "day": "2026-04-12",
+              "downloads": 385442
+            },
+            {
+              "day": "2026-04-13",
+              "downloads": 598687
+            },
+            {
+              "day": "2026-04-14",
+              "downloads": 571647
+            },
+            {
+              "day": "2026-04-15",
+              "downloads": 626383
+            }
+          ]
+        },
         "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
+        "weekly_downloads": 3526254,
+        "monthly_downloads": 14630480,
+        "daily_downloads": [
+          {
+            "day": "2026-03-17",
+            "downloads": 564771
+          },
+          {
+            "day": "2026-03-18",
+            "downloads": 469343
+          },
+          {
+            "day": "2026-03-19",
+            "downloads": 1023811
+          },
+          {
+            "day": "2026-03-20",
+            "downloads": 652688
+          },
+          {
+            "day": "2026-03-21",
+            "downloads": 280432
+          },
+          {
+            "day": "2026-03-22",
+            "downloads": 290661
+          },
+          {
+            "day": "2026-03-23",
+            "downloads": 472679
+          },
+          {
+            "day": "2026-03-24",
+            "downloads": 473162
+          },
+          {
+            "day": "2026-03-25",
+            "downloads": 408320
+          },
+          {
+            "day": "2026-03-26",
+            "downloads": 416751
+          },
+          {
+            "day": "2026-03-27",
+            "downloads": 886544
+          },
+          {
+            "day": "2026-03-28",
+            "downloads": 335297
+          },
+          {
+            "day": "2026-03-29",
+            "downloads": 281074
+          },
+          {
+            "day": "2026-03-30",
+            "downloads": 530940
+          },
+          {
+            "day": "2026-03-31",
+            "downloads": 505336
+          },
+          {
+            "day": "2026-04-01",
+            "downloads": 613006
+          },
+          {
+            "day": "2026-04-02",
+            "downloads": 509713
+          },
+          {
+            "day": "2026-04-03",
+            "downloads": 420215
+          },
+          {
+            "day": "2026-04-04",
+            "downloads": 286588
+          },
+          {
+            "day": "2026-04-05",
+            "downloads": 263485
+          },
+          {
+            "day": "2026-04-06",
+            "downloads": 436406
+          },
+          {
+            "day": "2026-04-07",
+            "downloads": 496688
+          },
+          {
+            "day": "2026-04-08",
+            "downloads": 486316
+          },
+          {
+            "day": "2026-04-09",
+            "downloads": 437645
+          },
+          {
+            "day": "2026-04-10",
+            "downloads": 433852
+          },
+          {
+            "day": "2026-04-11",
+            "downloads": 472598
+          },
+          {
+            "day": "2026-04-12",
+            "downloads": 385442
+          },
+          {
+            "day": "2026-04-13",
+            "downloads": 598687
+          },
+          {
+            "day": "2026-04-14",
+            "downloads": 571647
+          },
+          {
+            "day": "2026-04-15",
+            "downloads": 626383
+          }
+        ]
       },
       "vscode": null,
       "jetbrains": null,
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 0,
-        "hn_comments_7d": 0,
+        "hn_stories_7d": 3,
+        "hn_comments_7d": 8,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
-        "total_questions": 0
+        "total_questions": 5
       },
       "trends": {
-        "avg_7d": 70,
-        "avg_30d": 57,
-        "latest": 100,
+        "avg_7d": 46,
+        "avg_30d": 65,
+        "latest": 85,
         "points": [
-          58,
-          0,
-          0,
-          70,
-          0,
-          64,
-          59,
-          59,
-          42,
-          65,
-          45,
-          61,
-          75,
-          0,
-          56,
-          51,
-          69,
-          60,
-          63,
-          73,
-          80,
-          66,
-          85,
+          83,
           86,
-          66,
-          77,
-          65,
-          55,
-          61,
-          65,
-          100
+          91,
+          81,
+          82,
+          86,
+          90,
+          85,
+          87,
+          87,
+          82,
+          87,
+          88,
+          94,
+          90,
+          100,
+          34,
+          32,
+          29,
+          32,
+          39,
+          37,
+          39,
+          43,
+          36,
+          32,
+          40,
+          39,
+          38,
+          52,
+          85
         ]
       },
       "momentum_score": 48,
@@ -1437,78 +1659,6 @@
       "rank": 10
     },
     {
-      "slug": "windsurf",
-      "name": "Windsurf",
-      "vendor": "Codeium",
-      "category": "ai-ide",
-      "website": "https://windsurf.com",
-      "color": "#06B6D4",
-      "github": null,
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": null,
-      "jetbrains": null,
-      "docker": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 8,
-        "hn_comments_7d": 8,
-        "reddit_posts_7d": 0
-      },
-      "stackoverflow": {
-        "total_questions": 3
-      },
-      "trends": {
-        "avg_7d": 62,
-        "avg_30d": 75,
-        "latest": 62,
-        "points": [
-          80,
-          86,
-          95,
-          94,
-          82,
-          80,
-          91,
-          88,
-          90,
-          84,
-          82,
-          80,
-          76,
-          85,
-          89,
-          100,
-          64,
-          62,
-          58,
-          55,
-          65,
-          65,
-          68,
-          71,
-          65,
-          57,
-          55,
-          63,
-          67,
-          67,
-          62
-        ]
-      },
-      "momentum_score": 46,
-      "momentum_delta_7d": null,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "_velocity_bonus": 0,
-      "rank": 11
-    },
-    {
       "slug": "aider",
       "name": "Aider",
       "vendor": "Aider",
@@ -1516,9 +1666,9 @@
       "website": "https://aider.chat",
       "color": "#EF4444",
       "github": {
-        "stars": 43409,
-        "forks": 4216,
-        "open_issues": 1481,
+        "stars": 43462,
+        "forks": 4222,
+        "open_issues": 1482,
         "watchers": 240,
         "last_push": "2026-04-09T05:09:59Z",
         "created_at": "2023-05-09T18:57:49Z",
@@ -1559,31 +1709,159 @@
       "downloads": {
         "npm": null,
         "pypi": {
-          "weekly_downloads": 186012,
-          "monthly_downloads": 866024,
+          "weekly_downloads": 197860,
+          "monthly_downloads": 878169,
           "daily_downloads": []
         },
-        "weekly_downloads": 186012,
-        "monthly_downloads": 866024,
+        "weekly_downloads": 197860,
+        "monthly_downloads": 878169,
         "daily_downloads": []
       },
       "vscode": null,
       "jetbrains": null,
       "docker": {
-        "pull_count": 35362,
+        "pull_count": 35458,
         "star_count": 7,
         "last_updated": "2026-04-09T05:25:23.371004Z"
       },
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 1,
-        "hn_comments_7d": 9,
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 8,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 3
       },
-      "trends": null,
+      "trends": {
+        "avg_7d": 73,
+        "avg_30d": 81,
+        "latest": 65,
+        "points": [
+          88,
+          90,
+          88,
+          76,
+          78,
+          91,
+          92,
+          86,
+          88,
+          87,
+          81,
+          83,
+          96,
+          94,
+          100,
+          87,
+          71,
+          64,
+          69,
+          71,
+          76,
+          77,
+          80,
+          73,
+          64,
+          67,
+          78,
+          80,
+          77,
+          79,
+          65
+        ]
+      },
+      "momentum_score": 48,
+      "momentum_delta_7d": null,
+      "momentum_delta_30d": null,
+      "trend": "stable",
+      "_velocity_bonus": 0,
+      "rank": 11
+    },
+    {
+      "slug": "hermes-agent",
+      "name": "Hermes Agent",
+      "vendor": "Nous Research",
+      "category": "personal-agent",
+      "website": "https://hermes-agent.nousresearch.com",
+      "color": "#7C3AED",
+      "github": {
+        "stars": 94649,
+        "forks": 13208,
+        "open_issues": 5083,
+        "watchers": 380,
+        "last_push": "2026-04-17T05:08:14Z",
+        "created_at": "2025-07-22T22:22:28Z",
+        "language": "Python",
+        "license": "MIT",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v2026.4.16",
+        "latest_release_date": "2026-04-16T19:53:25Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": 0,
+        "stars_delta_30d": 0,
+        "stars_velocity_30d": 0
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": null,
+      "jetbrains": null,
+      "docker": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 7,
+        "hn_comments_7d": 12,
+        "reddit_posts_7d": 0
+      },
+      "stackoverflow": {
+        "total_questions": 0
+      },
+      "trends": {
+        "avg_7d": 69,
+        "avg_30d": 31,
+        "latest": 100,
+        "points": [
+          6,
+          7,
+          8,
+          8,
+          11,
+          12,
+          12,
+          11,
+          10,
+          12,
+          16,
+          24,
+          30,
+          29,
+          29,
+          30,
+          20,
+          22,
+          23,
+          24,
+          26,
+          33,
+          42,
+          49,
+          52,
+          58,
+          72,
+          71,
+          64,
+          65,
+          100
+        ]
+      },
       "momentum_score": 46,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
@@ -1592,12 +1870,12 @@
       "rank": 12
     },
     {
-      "slug": "claw-code",
-      "name": "Claw Code",
-      "vendor": "Claw Code Foundation",
-      "category": "terminal-agent",
-      "website": "https://clawcode.dev",
-      "color": "#F97316",
+      "slug": "isekai-zero",
+      "name": "ISEKAI ZERO",
+      "vendor": "ISEKAI",
+      "category": "personal-agent",
+      "website": null,
+      "color": "#A855F7",
       "github": null,
       "downloads": {
         "npm": null,
@@ -1611,14 +1889,51 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 1,
-        "hn_comments_7d": 1,
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 0,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 0
       },
-      "trends": null,
+      "trends": {
+        "avg_7d": 54,
+        "avg_30d": 51,
+        "latest": 76,
+        "points": [
+          36,
+          35,
+          39,
+          0,
+          48,
+          48,
+          44,
+          47,
+          39,
+          37,
+          57,
+          100,
+          49,
+          40,
+          62,
+          63,
+          46,
+          49,
+          56,
+          63,
+          52,
+          68,
+          68,
+          52,
+          60,
+          52,
+          43,
+          46,
+          52,
+          50,
+          76
+        ]
+      },
       "momentum_score": 46,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
@@ -1634,11 +1949,11 @@
       "website": "https://github.com/google-gemini/gemini-cli",
       "color": "#4285F4",
       "github": {
-        "stars": 101397,
-        "forks": 13139,
-        "open_issues": 2934,
+        "stars": 101522,
+        "forks": 13176,
+        "open_issues": 2940,
         "watchers": 537,
-        "last_push": "2026-04-16T05:49:03Z",
+        "last_push": "2026-04-17T05:10:32Z",
         "created_at": "2025-04-17T17:04:31Z",
         "language": "TypeScript",
         "license": "Apache-2.0",
@@ -1655,13 +1970,9 @@
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 814636,
-          "monthly_downloads": 3173769,
+          "weekly_downloads": 890168,
+          "monthly_downloads": 3243755,
           "daily_downloads": [
-            {
-              "day": "2026-03-16",
-              "downloads": 112745
-            },
             {
               "day": "2026-03-17",
               "downloads": 154358
@@ -1777,17 +2088,17 @@
             {
               "day": "2026-04-14",
               "downloads": 157112
+            },
+            {
+              "day": "2026-04-15",
+              "downloads": 182731
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 814636,
-        "monthly_downloads": 3173769,
+        "weekly_downloads": 890168,
+        "monthly_downloads": 3243755,
         "daily_downloads": [
-          {
-            "day": "2026-03-16",
-            "downloads": 112745
-          },
           {
             "day": "2026-03-17",
             "downloads": 154358
@@ -1903,6 +2214,10 @@
           {
             "day": "2026-04-14",
             "downloads": 157112
+          },
+          {
+            "day": "2026-04-15",
+            "downloads": 182731
           }
         ]
       },
@@ -1911,7 +2226,7 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 8,
+        "hn_stories_7d": 6,
         "hn_comments_7d": 24,
         "reddit_posts_7d": 0
       },
@@ -1919,41 +2234,41 @@
         "total_questions": 4
       },
       "trends": {
-        "avg_7d": 71,
-        "avg_30d": 77,
-        "latest": 100,
+        "avg_7d": 72,
+        "avg_30d": 78,
+        "latest": 91,
         "points": [
-          86,
-          96,
-          80,
-          82,
-          72,
-          74,
-          81,
-          91,
-          94,
-          90,
-          92,
-          75,
-          89,
-          89,
           97,
-          90,
-          68,
+          81,
+          83,
+          74,
+          76,
+          80,
+          95,
+          95,
+          93,
+          94,
+          77,
+          91,
+          89,
+          100,
+          91,
+          84,
           66,
-          58,
-          52,
-          64,
-          69,
-          68,
-          70,
-          67,
           59,
-          57,
-          69,
+          58,
+          65,
           70,
           72,
-          100
+          68,
+          68,
+          58,
+          58,
+          70,
+          70,
+          75,
+          82,
+          91
         ]
       },
       "momentum_score": 45,
@@ -1971,19 +2286,19 @@
       "website": "https://cline.bot",
       "color": "#F59E0B",
       "github": {
-        "stars": 60326,
-        "forks": 6157,
-        "open_issues": 680,
-        "watchers": 273,
-        "last_push": "2026-04-16T03:42:00Z",
+        "stars": 60366,
+        "forks": 6163,
+        "open_issues": 685,
+        "watchers": 274,
+        "last_push": "2026-04-17T05:44:42Z",
         "created_at": "2024-07-06T07:28:10Z",
         "language": "TypeScript",
         "license": "Apache-2.0",
         "commit_velocity_4w": 0,
         "contributors_count": null,
         "top_contributors": [],
-        "latest_release": "v3.78.0",
-        "latest_release_date": "2026-04-10T20:40:51Z",
+        "latest_release": "v3.79.0",
+        "latest_release_date": "2026-04-16T20:16:59Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
         "stars_delta_7d": 0,
@@ -1998,20 +2313,20 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 3620793,
-        "average_rating": 4.211469650268555,
-        "rating_count": 279,
-        "update_count": 47955025
+        "installs": 3632976,
+        "average_rating": 4.202847003936768,
+        "rating_count": 281,
+        "update_count": 47992063
       },
       "jetbrains": {
-        "downloads": 481696,
+        "downloads": 483779,
         "rating": null,
         "votes": null
       },
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 2,
+        "hn_stories_7d": 1,
         "hn_comments_7d": 3,
         "reddit_posts_7d": 0
       },
@@ -2020,43 +2335,43 @@
       },
       "trends": {
         "avg_7d": 50,
-        "avg_30d": 53,
-        "latest": 49,
+        "avg_30d": 54,
+        "latest": 54,
         "points": [
           47,
-          46,
-          49,
-          57,
-          47,
-          45,
-          45,
-          46,
-          47,
           50,
+          58,
+          48,
+          47,
+          46,
+          48,
+          48,
+          51,
+          55,
+          57,
+          55,
+          50,
+          54,
+          60,
+          59,
+          48,
+          45,
+          46,
+          80,
+          100,
+          64,
           53,
           55,
-          54,
+          53,
+          51,
           49,
-          52,
-          59,
-          45,
+          49,
           47,
-          44,
-          45,
-          79,
-          100,
-          65,
-          54,
-          55,
-          54,
-          50,
-          48,
-          50,
-          44,
-          49
+          47,
+          54
         ]
       },
-      "momentum_score": 45,
+      "momentum_score": 44,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
@@ -2064,32 +2379,13 @@
       "rank": 15
     },
     {
-      "slug": "hermes-agent",
-      "name": "Hermes Agent",
-      "vendor": "Nous Research",
-      "category": "personal-agent",
-      "website": "https://hermes-agent.nousresearch.com",
-      "color": "#7C3AED",
-      "github": {
-        "stars": 90824,
-        "forks": 12473,
-        "open_issues": 4780,
-        "watchers": 369,
-        "last_push": "2026-04-16T05:44:46Z",
-        "created_at": "2025-07-22T22:22:28Z",
-        "language": "Python",
-        "license": "MIT",
-        "commit_velocity_4w": 0,
-        "contributors_count": null,
-        "top_contributors": [],
-        "latest_release": "v2026.4.13",
-        "latest_release_date": "2026-04-13T18:52:41Z",
-        "issue_close_ratio": 0,
-        "closed_issues": 0,
-        "stars_delta_7d": 0,
-        "stars_delta_30d": 0,
-        "stars_velocity_30d": 0
-      },
+      "slug": "claw-code",
+      "name": "Claw Code",
+      "vendor": "Claw Code Foundation",
+      "category": "terminal-agent",
+      "website": "https://clawcode.dev",
+      "color": "#F97316",
+      "github": null,
       "downloads": {
         "npm": null,
         "pypi": null,
@@ -2102,52 +2398,52 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 7,
-        "hn_comments_7d": 12,
+        "hn_stories_7d": 1,
+        "hn_comments_7d": 1,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
         "total_questions": 0
       },
       "trends": {
-        "avg_7d": 67,
-        "avg_30d": 30,
-        "latest": 100,
+        "avg_7d": 12,
+        "avg_30d": 21,
+        "latest": 11,
         "points": [
-          7,
-          6,
-          7,
-          8,
-          8,
           11,
+          14,
+          13,
           13,
           12,
           11,
-          10,
           12,
-          16,
-          24,
-          30,
-          29,
-          29,
-          18,
+          14,
+          13,
+          13,
+          12,
+          14,
+          11,
           21,
-          22,
-          23,
-          24,
-          26,
-          34,
-          44,
-          49,
-          56,
+          92,
+          100,
           58,
-          74,
-          71,
-          64,
-          100
+          32,
+          27,
+          25,
+          20,
+          17,
+          15,
+          15,
+          12,
+          13,
+          13,
+          11,
+          11,
+          10,
+          11
         ]
       },
-      "momentum_score": 43,
+      "momentum_score": 44,
       "momentum_delta_7d": null,
       "momentum_delta_30d": null,
       "trend": "stable",
