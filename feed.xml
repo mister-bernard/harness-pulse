@@ -4,37 +4,37 @@
     <title>The Harness Pulse</title>
     <link>https://mrb.sh/hp</link>
     <description>Daily AI coding tool adoption rankings</description>
-    <lastBuildDate>Sat, 18 Apr 2026 06:04:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 06:02:16 GMT</lastBuildDate>
     
     <item>
       <title>Continue — Momentum Score: 69</title>
       <description>Rank #1. 7d delta: —. Trend: stable.</description>
-      <pubDate>Sat, 18 Apr 2026 06:04:38 GMT</pubDate>
-      <guid>https://mrb.sh/hp#continue-2026-04-18</guid>
+      <pubDate>Sun, 19 Apr 2026 06:02:16 GMT</pubDate>
+      <guid>https://mrb.sh/hp#continue-2026-04-19</guid>
     </item>
     <item>
       <title>GitHub Copilot — Momentum Score: 62</title>
       <description>Rank #2. 7d delta: —. Trend: stable.</description>
-      <pubDate>Sat, 18 Apr 2026 06:04:38 GMT</pubDate>
-      <guid>https://mrb.sh/hp#github-copilot-2026-04-18</guid>
-    </item>
-    <item>
-      <title>Aider — Momentum Score: 59</title>
-      <description>Rank #3. 7d delta: —. Trend: stable.</description>
-      <pubDate>Sat, 18 Apr 2026 06:04:38 GMT</pubDate>
-      <guid>https://mrb.sh/hp#aider-2026-04-18</guid>
+      <pubDate>Sun, 19 Apr 2026 06:02:16 GMT</pubDate>
+      <guid>https://mrb.sh/hp#github-copilot-2026-04-19</guid>
     </item>
     <item>
       <title>Cursor — Momentum Score: 57</title>
-      <description>Rank #4. 7d delta: —. Trend: stable.</description>
-      <pubDate>Sat, 18 Apr 2026 06:04:38 GMT</pubDate>
-      <guid>https://mrb.sh/hp#cursor-2026-04-18</guid>
+      <description>Rank #3. 7d delta: —. Trend: stable.</description>
+      <pubDate>Sun, 19 Apr 2026 06:02:16 GMT</pubDate>
+      <guid>https://mrb.sh/hp#cursor-2026-04-19</guid>
     </item>
     <item>
-      <title>Roo Code — Momentum Score: 57</title>
+      <title>Kilo Code — Momentum Score: 57</title>
+      <description>Rank #4. 7d delta: —. Trend: stable.</description>
+      <pubDate>Sun, 19 Apr 2026 06:02:16 GMT</pubDate>
+      <guid>https://mrb.sh/hp#kilo-code-2026-04-19</guid>
+    </item>
+    <item>
+      <title>Roo Code — Momentum Score: 55</title>
       <description>Rank #5. 7d delta: —. Trend: stable.</description>
-      <pubDate>Sat, 18 Apr 2026 06:04:38 GMT</pubDate>
-      <guid>https://mrb.sh/hp#roo-code-2026-04-18</guid>
+      <pubDate>Sun, 19 Apr 2026 06:02:16 GMT</pubDate>
+      <guid>https://mrb.sh/hp#roo-code-2026-04-19</guid>
     </item>
   </channel>
 </rss>
