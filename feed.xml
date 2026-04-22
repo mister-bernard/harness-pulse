@@ -4,37 +4,37 @@
     <title>The Harness Pulse</title>
     <link>https://mrb.sh/hp</link>
     <description>Daily AI coding tool adoption rankings</description>
-    <lastBuildDate>Mon, 20 Apr 2026 06:02:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 06:02:00 GMT</lastBuildDate>
     
     <item>
-      <title>Continue — Momentum Score: 73</title>
-      <description>Rank #1. 7d delta: +11. Trend: surging.</description>
-      <pubDate>Mon, 20 Apr 2026 06:02:18 GMT</pubDate>
-      <guid>https://mrb.sh/hp#continue-2026-04-20</guid>
+      <title>Continue — Momentum Score: 64</title>
+      <description>Rank #1. 7d delta: -14. Trend: falling.</description>
+      <pubDate>Wed, 22 Apr 2026 06:02:00 GMT</pubDate>
+      <guid>https://mrb.sh/hp#continue-2026-04-22</guid>
     </item>
     <item>
       <title>GitHub Copilot — Momentum Score: 62</title>
-      <description>Rank #2. 7d delta: +2. Trend: stable.</description>
-      <pubDate>Mon, 20 Apr 2026 06:02:18 GMT</pubDate>
-      <guid>https://mrb.sh/hp#github-copilot-2026-04-20</guid>
+      <description>Rank #2. 7d delta: +0. Trend: stable.</description>
+      <pubDate>Wed, 22 Apr 2026 06:02:00 GMT</pubDate>
+      <guid>https://mrb.sh/hp#github-copilot-2026-04-22</guid>
     </item>
     <item>
-      <title>Cursor — Momentum Score: 57</title>
-      <description>Rank #3. 7d delta: +4. Trend: rising.</description>
-      <pubDate>Mon, 20 Apr 2026 06:02:18 GMT</pubDate>
-      <guid>https://mrb.sh/hp#cursor-2026-04-20</guid>
+      <title>Cursor — Momentum Score: 56</title>
+      <description>Rank #3. 7d delta: +0. Trend: stable.</description>
+      <pubDate>Wed, 22 Apr 2026 06:02:00 GMT</pubDate>
+      <guid>https://mrb.sh/hp#cursor-2026-04-22</guid>
     </item>
     <item>
-      <title>Hermes Agent — Momentum Score: 54</title>
-      <description>Rank #4. 7d delta: +14. Trend: surging.</description>
-      <pubDate>Mon, 20 Apr 2026 06:02:18 GMT</pubDate>
-      <guid>https://mrb.sh/hp#hermes-agent-2026-04-20</guid>
+      <title>Kilo Code — Momentum Score: 52</title>
+      <description>Rank #4. 7d delta: -1. Trend: stable.</description>
+      <pubDate>Wed, 22 Apr 2026 06:02:00 GMT</pubDate>
+      <guid>https://mrb.sh/hp#kilo-code-2026-04-22</guid>
     </item>
     <item>
-      <title>Kilo Code — Momentum Score: 50</title>
+      <title>OpenClaw — Momentum Score: 51</title>
       <description>Rank #5. 7d delta: +2. Trend: stable.</description>
-      <pubDate>Mon, 20 Apr 2026 06:02:18 GMT</pubDate>
-      <guid>https://mrb.sh/hp#kilo-code-2026-04-20</guid>
+      <pubDate>Wed, 22 Apr 2026 06:02:00 GMT</pubDate>
+      <guid>https://mrb.sh/hp#openclaw-2026-04-22</guid>
     </item>
   </channel>
 </rss>
