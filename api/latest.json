@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-22T06:02:00.243Z",
+  "collected_at": "2026-04-23T06:02:02.600Z",
   "tools": [
     {
       "slug": "continue",
@@ -9,11 +9,11 @@
       "website": "https://continue.dev",
       "color": "#2563EB",
       "github": {
-        "stars": 32706,
-        "forks": 4400,
-        "open_issues": 605,
-        "watchers": 141,
-        "last_push": "2026-04-21T16:41:06Z",
+        "stars": 32733,
+        "forks": 4408,
+        "open_issues": 613,
+        "watchers": 142,
+        "last_push": "2026-04-22T23:33:58Z",
         "created_at": "2023-05-24T03:39:39Z",
         "language": "TypeScript",
         "license": "Apache-2.0",
@@ -45,9 +45,9 @@
         "latest_release_date": "2026-03-27T21:25:10Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 140,
-        "stars_delta_30d": 206,
-        "stars_velocity_30d": 206
+        "stars_delta_7d": 144,
+        "stars_delta_30d": 233,
+        "stars_velocity_30d": 233
       },
       "downloads": {
         "npm": null,
@@ -57,21 +57,21 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 2692627,
-        "average_rating": 3.514084577560425,
-        "rating_count": 142,
-        "update_count": 15285114
+        "installs": 2711291,
+        "average_rating": 3.4965035915374756,
+        "rating_count": 143,
+        "update_count": 15297776
       },
       "jetbrains": {
-        "downloads": 1075835,
+        "downloads": 1078098,
         "rating": null,
         "votes": null
       },
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 13,
-        "hn_comments_7d": 443,
+        "hn_stories_7d": 12,
+        "hn_comments_7d": 416,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -79,7 +79,7 @@
       },
       "trends": null,
       "momentum_score": 64,
-      "momentum_delta_7d": -14,
+      "momentum_delta_7d": -12,
       "momentum_delta_30d": null,
       "trend": "falling",
       "_velocity_bonus": 0,
@@ -101,21 +101,21 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 73073219,
-        "average_rating": 4.102099418640137,
-        "rating_count": 1048,
-        "update_count": 577009133
+        "installs": 73088622,
+        "average_rating": 4.099142074584961,
+        "rating_count": 1049,
+        "update_count": 577027710
       },
       "jetbrains": {
-        "downloads": 43218555,
+        "downloads": 43286263,
         "rating": null,
         "votes": null
       },
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 16,
-        "hn_comments_7d": 41,
+        "hn_stories_7d": 15,
+        "hn_comments_7d": 53,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -149,8 +149,8 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 42,
-        "hn_comments_7d": 249,
+        "hn_stories_7d": 53,
+        "hn_comments_7d": 361,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -158,59 +158,38 @@
       },
       "trends": null,
       "momentum_score": 56,
-      "momentum_delta_7d": 0,
+      "momentum_delta_7d": -1,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
       "rank": 3
     },
     {
-      "slug": "kilo-code",
-      "name": "Kilo Code",
-      "vendor": "Kilo Code",
+      "slug": "roo-code",
+      "name": "Roo Code",
+      "vendor": "Roo Code",
       "category": "ide-extension",
-      "website": "https://kilocode.ai",
-      "color": "#8B5CF6",
+      "website": "https://roocode.com",
+      "color": "#84CC16",
       "github": {
-        "stars": 18398,
-        "forks": 2421,
-        "open_issues": 1107,
-        "watchers": 101,
-        "last_push": "2026-04-21T21:44:47Z",
-        "created_at": "2025-03-10T15:34:26Z",
+        "stars": 23271,
+        "forks": 3064,
+        "open_issues": 887,
+        "watchers": 136,
+        "last_push": "2026-04-22T23:07:33Z",
+        "created_at": "2024-10-31T17:56:50Z",
         "language": "TypeScript",
-        "license": "MIT",
-        "commit_velocity_4w": 2328,
-        "contributors_count": 100,
-        "top_contributors": [
-          {
-            "login": "thdxr",
-            "commits": 2027
-          },
-          {
-            "login": "adamdotdevin",
-            "commits": 1897
-          },
-          {
-            "login": "rekram1-node",
-            "commits": 1361
-          },
-          {
-            "login": "markijbema",
-            "commits": 1265
-          },
-          {
-            "login": "actions-user",
-            "commits": 1095
-          }
-        ],
-        "latest_release": "v7.2.14",
-        "latest_release_date": "2026-04-17T18:09:25Z",
+        "license": "Apache-2.0",
+        "commit_velocity_4w": 0,
+        "contributors_count": null,
+        "top_contributors": [],
+        "latest_release": "v3.52.1",
+        "latest_release_date": "2026-04-13T22:33:01Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 284,
-        "stars_delta_30d": 298,
-        "stars_velocity_30d": 298
+        "stars_delta_7d": 127,
+        "stars_delta_30d": 271,
+        "stars_velocity_30d": 271
       },
       "downloads": {
         "npm": null,
@@ -220,31 +199,31 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 1000863,
-        "average_rating": 3.8057143688201904,
-        "rating_count": 175,
-        "update_count": 14790959
+        "installs": 1515633,
+        "average_rating": 4.7602338790893555,
+        "rating_count": 342,
+        "update_count": 23619687
       },
       "jetbrains": {
-        "downloads": 228883,
+        "downloads": 5774,
         "rating": null,
         "votes": null
       },
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 0,
+        "hn_stories_7d": 2,
         "hn_comments_7d": 1,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
-        "total_questions": 1
+        "total_questions": 3
       },
       "trends": null,
-      "momentum_score": 52,
-      "momentum_delta_7d": -1,
+      "momentum_score": 54,
+      "momentum_delta_7d": 6,
       "momentum_delta_30d": null,
-      "trend": "stable",
+      "trend": "rising",
       "_velocity_bonus": 0,
       "rank": 4
     },
@@ -256,55 +235,51 @@
       "website": "https://openclaw.com",
       "color": "#DC2626",
       "github": {
-        "stars": 362000,
-        "forks": 73912,
-        "open_issues": 19092,
-        "watchers": 1789,
-        "last_push": "2026-04-22T05:59:45Z",
+        "stars": 362543,
+        "forks": 74066,
+        "open_issues": 19034,
+        "watchers": 1792,
+        "last_push": "2026-04-23T05:55:08Z",
         "created_at": "2025-11-24T10:16:47Z",
         "language": "TypeScript",
         "license": "MIT",
-        "commit_velocity_4w": 10317,
+        "commit_velocity_4w": 10814,
         "contributors_count": 98,
         "top_contributors": [
           {
             "login": "steipete",
-            "commits": 19627
+            "commits": 19925
           },
           {
             "login": "vincentkoc",
-            "commits": 3589
+            "commits": 3652
           },
           {
             "login": "obviyus",
-            "commits": 1103
+            "commits": 1131
           },
           {
             "login": "Takhoffman",
-            "commits": 1055
+            "commits": 1057
           },
           {
             "login": "gumadeiras",
-            "commits": 934
+            "commits": 936
           }
         ],
         "latest_release": "v2026.4.21",
         "latest_release_date": "2026-04-22T04:18:58Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 4412,
+        "stars_delta_7d": 4215,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 1200970,
-          "monthly_downloads": 6745679,
+          "weekly_downloads": 1045989,
+          "monthly_downloads": 6665057,
           "daily_downloads": [
-            {
-              "day": "2026-03-22",
-              "downloads": 199099
-            },
             {
               "day": "2026-03-23",
               "downloads": 286641
@@ -420,17 +395,17 @@
             {
               "day": "2026-04-20",
               "downloads": 117349
+            },
+            {
+              "day": "2026-04-21",
+              "downloads": 118477
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 1200970,
-        "monthly_downloads": 6745679,
+        "weekly_downloads": 1045989,
+        "monthly_downloads": 6665057,
         "daily_downloads": [
-          {
-            "day": "2026-03-22",
-            "downloads": 199099
-          },
           {
             "day": "2026-03-23",
             "downloads": 286641
@@ -546,6 +521,10 @@
           {
             "day": "2026-04-20",
             "downloads": 117349
+          },
+          {
+            "day": "2026-04-21",
+            "downloads": 118477
           }
         ]
       },
@@ -554,8 +533,8 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 35,
-        "hn_comments_7d": 310,
+        "hn_stories_7d": 30,
+        "hn_comments_7d": 207,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -563,7 +542,7 @@
       },
       "trends": null,
       "momentum_score": 51,
-      "momentum_delta_7d": 2,
+      "momentum_delta_7d": 1,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 1,
@@ -577,11 +556,11 @@
       "website": "https://hermes-agent.nousresearch.com",
       "color": "#7C3AED",
       "github": {
-        "stars": 108840,
-        "forks": 15717,
-        "open_issues": 6113,
-        "watchers": 421,
-        "last_push": "2026-04-22T05:31:42Z",
+        "stars": 111384,
+        "forks": 16178,
+        "open_issues": 6344,
+        "watchers": 431,
+        "last_push": "2026-04-23T04:30:34Z",
         "created_at": "2025-07-22T22:22:28Z",
         "language": "Python",
         "license": "MIT",
@@ -592,7 +571,7 @@
         "latest_release_date": "2026-04-16T19:53:25Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 22850,
+        "stars_delta_7d": 20560,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
@@ -609,7 +588,7 @@
       "openrouter": null,
       "community": {
         "hn_stories_7d": 5,
-        "hn_comments_7d": 16,
+        "hn_comments_7d": 9,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -617,74 +596,11 @@
       },
       "trends": null,
       "momentum_score": 51,
-      "momentum_delta_7d": 7,
+      "momentum_delta_7d": 8,
       "momentum_delta_30d": null,
       "trend": "rising",
       "_velocity_bonus": 8,
       "rank": 6
-    },
-    {
-      "slug": "roo-code",
-      "name": "Roo Code",
-      "vendor": "Roo Code",
-      "category": "ide-extension",
-      "website": "https://roocode.com",
-      "color": "#84CC16",
-      "github": {
-        "stars": 23260,
-        "forks": 3040,
-        "open_issues": 882,
-        "watchers": 136,
-        "last_push": "2026-04-22T03:12:30Z",
-        "created_at": "2024-10-31T17:56:50Z",
-        "language": "TypeScript",
-        "license": "Apache-2.0",
-        "commit_velocity_4w": 0,
-        "contributors_count": null,
-        "top_contributors": [],
-        "latest_release": "v3.52.1",
-        "latest_release_date": "2026-04-13T22:33:01Z",
-        "issue_close_ratio": 0,
-        "closed_issues": 0,
-        "stars_delta_7d": 138,
-        "stars_delta_30d": 260,
-        "stars_velocity_30d": 260
-      },
-      "downloads": {
-        "npm": null,
-        "pypi": null,
-        "weekly_downloads": null,
-        "monthly_downloads": null,
-        "daily_downloads": []
-      },
-      "vscode": {
-        "installs": 1509647,
-        "average_rating": 4.759531021118164,
-        "rating_count": 341,
-        "update_count": 23608319
-      },
-      "jetbrains": {
-        "downloads": 5542,
-        "rating": null,
-        "votes": null
-      },
-      "docker": null,
-      "openrouter": null,
-      "community": {
-        "hn_stories_7d": 1,
-        "hn_comments_7d": 1,
-        "reddit_posts_7d": 0
-      },
-      "stackoverflow": {
-        "total_questions": 3
-      },
-      "trends": null,
-      "momentum_score": 51,
-      "momentum_delta_7d": -3,
-      "momentum_delta_30d": null,
-      "trend": "stable",
-      "_velocity_bonus": 0,
-      "rank": 7
     },
     {
       "slug": "codex-cli",
@@ -694,34 +610,30 @@
       "website": "https://openai.com/index/codex/",
       "color": "#10A37F",
       "github": {
-        "stars": 76874,
-        "forks": 10941,
-        "open_issues": 2904,
-        "watchers": 435,
-        "last_push": "2026-04-22T05:59:40Z",
+        "stars": 77110,
+        "forks": 10982,
+        "open_issues": 2931,
+        "watchers": 437,
+        "last_push": "2026-04-23T05:57:58Z",
         "created_at": "2025-04-13T05:37:54Z",
         "language": "Rust",
         "license": "Apache-2.0",
         "commit_velocity_4w": 0,
         "contributors_count": null,
         "top_contributors": [],
-        "latest_release": "rust-v0.122.0",
-        "latest_release_date": "2026-04-20T18:38:40Z",
+        "latest_release": "rust-v0.123.0",
+        "latest_release_date": "2026-04-23T01:26:06Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 1531,
+        "stars_delta_7d": 1559,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 4489736,
-          "monthly_downloads": 14931141,
+          "weekly_downloads": 4786201,
+          "monthly_downloads": 15508592,
           "daily_downloads": [
-            {
-              "day": "2026-03-22",
-              "downloads": 290661
-            },
             {
               "day": "2026-03-23",
               "downloads": 472679
@@ -837,17 +749,17 @@
             {
               "day": "2026-04-20",
               "downloads": 985757
+            },
+            {
+              "day": "2026-04-21",
+              "downloads": 868112
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 4489736,
-        "monthly_downloads": 14931141,
+        "weekly_downloads": 4786201,
+        "monthly_downloads": 15508592,
         "daily_downloads": [
-          {
-            "day": "2026-03-22",
-            "downloads": 290661
-          },
           {
             "day": "2026-03-23",
             "downloads": 472679
@@ -963,6 +875,10 @@
           {
             "day": "2026-04-20",
             "downloads": 985757
+          },
+          {
+            "day": "2026-04-21",
+            "downloads": 868112
           }
         ]
       },
@@ -971,8 +887,8 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 4,
-        "hn_comments_7d": 4,
+        "hn_stories_7d": 5,
+        "hn_comments_7d": 3,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -980,10 +896,94 @@
       },
       "trends": null,
       "momentum_score": 50,
-      "momentum_delta_7d": 2,
+      "momentum_delta_7d": 1,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 1,
+      "rank": 7
+    },
+    {
+      "slug": "kilo-code",
+      "name": "Kilo Code",
+      "vendor": "Kilo Code",
+      "category": "ide-extension",
+      "website": "https://kilocode.ai",
+      "color": "#8B5CF6",
+      "github": {
+        "stars": 18451,
+        "forks": 2422,
+        "open_issues": 1137,
+        "watchers": 101,
+        "last_push": "2026-04-23T05:42:36Z",
+        "created_at": "2025-03-10T15:34:26Z",
+        "language": "TypeScript",
+        "license": "MIT",
+        "commit_velocity_4w": 2609,
+        "contributors_count": 100,
+        "top_contributors": [
+          {
+            "login": "thdxr",
+            "commits": 2044
+          },
+          {
+            "login": "adamdotdevin",
+            "commits": 1899
+          },
+          {
+            "login": "rekram1-node",
+            "commits": 1373
+          },
+          {
+            "login": "markijbema",
+            "commits": 1272
+          },
+          {
+            "login": "actions-user",
+            "commits": 1095
+          }
+        ],
+        "latest_release": "v7.2.20",
+        "latest_release_date": "2026-04-22T12:30:58Z",
+        "issue_close_ratio": 0,
+        "closed_issues": 0,
+        "stars_delta_7d": 285,
+        "stars_delta_30d": 251,
+        "stars_velocity_30d": 251
+      },
+      "downloads": {
+        "npm": null,
+        "pypi": null,
+        "weekly_downloads": null,
+        "monthly_downloads": null,
+        "daily_downloads": []
+      },
+      "vscode": {
+        "installs": 1006339,
+        "average_rating": 3.819209098815918,
+        "rating_count": 177,
+        "update_count": 14920621
+      },
+      "jetbrains": {
+        "downloads": 230223,
+        "rating": null,
+        "votes": null
+      },
+      "docker": null,
+      "openrouter": null,
+      "community": {
+        "hn_stories_7d": 0,
+        "hn_comments_7d": 4,
+        "reddit_posts_7d": 0
+      },
+      "stackoverflow": {
+        "total_questions": 1
+      },
+      "trends": null,
+      "momentum_score": 50,
+      "momentum_delta_7d": -6,
+      "momentum_delta_30d": null,
+      "trend": "declining",
+      "_velocity_bonus": 0,
       "rank": 8
     },
     {
@@ -994,34 +994,30 @@
       "website": "https://docs.anthropic.com/en/docs/claude-code",
       "color": "#D97706",
       "github": {
-        "stars": 116712,
-        "forks": 19432,
-        "open_issues": 10305,
-        "watchers": 725,
-        "last_push": "2026-04-22T00:04:40Z",
+        "stars": 117070,
+        "forks": 19493,
+        "open_issues": 10348,
+        "watchers": 724,
+        "last_push": "2026-04-23T03:53:20Z",
         "created_at": "2025-02-22T17:41:21Z",
         "language": "Shell",
         "license": null,
         "commit_velocity_4w": 0,
         "contributors_count": null,
         "top_contributors": [],
-        "latest_release": "v2.1.117",
-        "latest_release_date": "2026-04-22T00:04:40Z",
+        "latest_release": "v2.1.118",
+        "latest_release_date": "2026-04-23T00:42:21Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 2605,
+        "stars_delta_7d": 2517,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 13093475,
-          "monthly_downloads": 48551159,
+          "weekly_downloads": 12412350,
+          "monthly_downloads": 49934290,
           "daily_downloads": [
-            {
-              "day": "2026-03-22",
-              "downloads": 480508
-            },
             {
               "day": "2026-03-23",
               "downloads": 1641081
@@ -1137,17 +1133,17 @@
             {
               "day": "2026-04-20",
               "downloads": 1834994
+            },
+            {
+              "day": "2026-04-21",
+              "downloads": 1863639
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 13093475,
-        "monthly_downloads": 48551159,
+        "weekly_downloads": 12412350,
+        "monthly_downloads": 49934290,
         "daily_downloads": [
-          {
-            "day": "2026-03-22",
-            "downloads": 480508
-          },
           {
             "day": "2026-03-23",
             "downloads": 1641081
@@ -1263,6 +1259,10 @@
           {
             "day": "2026-04-20",
             "downloads": 1834994
+          },
+          {
+            "day": "2026-04-21",
+            "downloads": 1863639
           }
         ]
       },
@@ -1271,51 +1271,14 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 162,
-        "hn_comments_7d": 749,
+        "hn_stories_7d": 146,
+        "hn_comments_7d": 748,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
-        "total_questions": 23
+        "total_questions": 24
       },
-      "trends": {
-        "avg_7d": 38,
-        "avg_30d": 47,
-        "latest": 53,
-        "points": [
-          47,
-          51,
-          52,
-          51,
-          48,
-          40,
-          40,
-          50,
-          76,
-          100,
-          73,
-          62,
-          45,
-          43,
-          53,
-          54,
-          40,
-          38,
-          37,
-          30,
-          30,
-          39,
-          40,
-          41,
-          43,
-          41,
-          30,
-          27,
-          38,
-          36,
-          53
-        ]
-      },
+      "trends": null,
       "momentum_score": 49,
       "momentum_delta_7d": 1,
       "momentum_delta_30d": null,
@@ -1331,11 +1294,11 @@
       "website": "https://www.all-hands.dev",
       "color": "#059669",
       "github": {
-        "stars": 71683,
-        "forks": 9023,
-        "open_issues": 410,
-        "watchers": 433,
-        "last_push": "2026-04-22T04:21:55Z",
+        "stars": 71831,
+        "forks": 9042,
+        "open_issues": 407,
+        "watchers": 434,
+        "last_push": "2026-04-23T03:50:19Z",
         "created_at": "2024-03-13T03:33:31Z",
         "language": "Python",
         "license": "NOASSERTION",
@@ -1346,19 +1309,19 @@
         "latest_release_date": "2026-03-30T16:01:39Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 462,
+        "stars_delta_7d": 539,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
       "downloads": {
         "npm": null,
         "pypi": {
-          "weekly_downloads": 224218,
-          "monthly_downloads": 2582188,
+          "weekly_downloads": 222217,
+          "monthly_downloads": 2608784,
           "daily_downloads": []
         },
-        "weekly_downloads": 224218,
-        "monthly_downloads": 2582188,
+        "weekly_downloads": 222217,
+        "monthly_downloads": 2608784,
         "daily_downloads": []
       },
       "vscode": null,
@@ -1389,34 +1352,30 @@
       "website": "https://github.com/google-gemini/gemini-cli",
       "color": "#4285F4",
       "github": {
-        "stars": 102057,
-        "forks": 13251,
-        "open_issues": 2861,
-        "watchers": 537,
-        "last_push": "2026-04-22T05:57:25Z",
+        "stars": 102169,
+        "forks": 13273,
+        "open_issues": 2877,
+        "watchers": 538,
+        "last_push": "2026-04-23T05:41:28Z",
         "created_at": "2025-04-17T17:04:31Z",
         "language": "TypeScript",
         "license": "Apache-2.0",
         "commit_velocity_4w": 0,
         "contributors_count": null,
         "top_contributors": [],
-        "latest_release": "v0.38.2",
-        "latest_release_date": "2026-04-17T18:38:59Z",
+        "latest_release": "v0.39.0",
+        "latest_release_date": "2026-04-23T04:12:56Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 774,
+        "stars_delta_7d": 772,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
       "downloads": {
         "npm": {
-          "weekly_downloads": 963434,
-          "monthly_downloads": 3305083,
+          "weekly_downloads": 917755,
+          "monthly_downloads": 3355624,
           "daily_downloads": [
-            {
-              "day": "2026-03-22",
-              "downloads": 60892
-            },
             {
               "day": "2026-03-23",
               "downloads": 91984
@@ -1532,17 +1491,17 @@
             {
               "day": "2026-04-20",
               "downloads": 137349
+            },
+            {
+              "day": "2026-04-21",
+              "downloads": 111433
             }
           ]
         },
         "pypi": null,
-        "weekly_downloads": 963434,
-        "monthly_downloads": 3305083,
+        "weekly_downloads": 917755,
+        "monthly_downloads": 3355624,
         "daily_downloads": [
-          {
-            "day": "2026-03-22",
-            "downloads": 60892
-          },
           {
             "day": "2026-03-23",
             "downloads": 91984
@@ -1658,6 +1617,10 @@
           {
             "day": "2026-04-20",
             "downloads": 137349
+          },
+          {
+            "day": "2026-04-21",
+            "downloads": 111433
           }
         ]
       },
@@ -1666,8 +1629,8 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 7,
-        "hn_comments_7d": 20,
+        "hn_stories_7d": 5,
+        "hn_comments_7d": 25,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -1675,7 +1638,7 @@
       },
       "trends": null,
       "momentum_score": 48,
-      "momentum_delta_7d": 2,
+      "momentum_delta_7d": 3,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
@@ -1701,8 +1664,8 @@
       "docker": null,
       "openrouter": null,
       "community": {
-        "hn_stories_7d": 5,
-        "hn_comments_7d": 12,
+        "hn_stories_7d": 2,
+        "hn_comments_7d": 14,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -1710,7 +1673,7 @@
       },
       "trends": null,
       "momentum_score": 48,
-      "momentum_delta_7d": 1,
+      "momentum_delta_7d": 2,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
@@ -1724,10 +1687,10 @@
       "website": "https://aider.chat",
       "color": "#EF4444",
       "github": {
-        "stars": 43673,
-        "forks": 4262,
+        "stars": 43769,
+        "forks": 4270,
         "open_issues": 1495,
-        "watchers": 242,
+        "watchers": 243,
         "last_push": "2026-04-09T05:09:59Z",
         "created_at": "2023-05-09T18:57:49Z",
         "language": "Python",
@@ -1760,25 +1723,25 @@
         "latest_release_date": "2025-08-09T17:42:19Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 315,
+        "stars_delta_7d": 360,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
       "downloads": {
         "npm": null,
         "pypi": {
-          "weekly_downloads": 213901,
-          "monthly_downloads": 910107,
+          "weekly_downloads": 218294,
+          "monthly_downloads": 917092,
           "daily_downloads": []
         },
-        "weekly_downloads": 213901,
-        "monthly_downloads": 910107,
+        "weekly_downloads": 218294,
+        "monthly_downloads": 917092,
         "daily_downloads": []
       },
       "vscode": null,
       "jetbrains": null,
       "docker": {
-        "pull_count": 35898,
+        "pull_count": 35981,
         "star_count": 7,
         "last_updated": "2026-04-09T05:25:23.371004Z"
       },
@@ -1793,7 +1756,7 @@
       },
       "trends": null,
       "momentum_score": 46,
-      "momentum_delta_7d": -1,
+      "momentum_delta_7d": 0,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
@@ -1828,7 +1791,7 @@
       },
       "trends": null,
       "momentum_score": 46,
-      "momentum_delta_7d": 0,
+      "momentum_delta_7d": -2,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
@@ -1842,22 +1805,22 @@
       "website": "https://cline.bot",
       "color": "#F59E0B",
       "github": {
-        "stars": 60544,
-        "forks": 6221,
-        "open_issues": 690,
-        "watchers": 275,
-        "last_push": "2026-04-22T05:16:25Z",
+        "stars": 60632,
+        "forks": 6235,
+        "open_issues": 688,
+        "watchers": 274,
+        "last_push": "2026-04-23T05:05:31Z",
         "created_at": "2024-07-06T07:28:10Z",
         "language": "TypeScript",
         "license": "Apache-2.0",
         "commit_velocity_4w": 0,
         "contributors_count": null,
         "top_contributors": [],
-        "latest_release": "v3.79.0",
-        "latest_release_date": "2026-04-16T20:16:59Z",
+        "latest_release": "v3.80.0",
+        "latest_release_date": "2026-04-22T18:38:10Z",
         "issue_close_ratio": 0,
         "closed_issues": 0,
-        "stars_delta_7d": 254,
+        "stars_delta_7d": 306,
         "stars_delta_30d": 0,
         "stars_velocity_30d": 0
       },
@@ -1869,13 +1832,13 @@
         "daily_downloads": []
       },
       "vscode": {
-        "installs": 3682618,
+        "installs": 3694378,
         "average_rating": 4.205673694610596,
         "rating_count": 282,
-        "update_count": 48592432
+        "update_count": 48630063
       },
       "jetbrains": {
-        "downloads": 495573,
+        "downloads": 497628,
         "rating": null,
         "votes": null
       },
@@ -1883,7 +1846,7 @@
       "openrouter": null,
       "community": {
         "hn_stories_7d": 1,
-        "hn_comments_7d": 3,
+        "hn_comments_7d": 4,
         "reddit_posts_7d": 0
       },
       "stackoverflow": {
@@ -1926,7 +1889,7 @@
       },
       "trends": null,
       "momentum_score": 44,
-      "momentum_delta_7d": 0,
+      "momentum_delta_7d": -2,
       "momentum_delta_30d": null,
       "trend": "stable",
       "_velocity_bonus": 0,
